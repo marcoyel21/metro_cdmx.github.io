@@ -1,0 +1,21 @@
+{
+  "date": "Mon Dec 12 19:53:34 CST 2022",
+  "author": "jorgaf",
+  "description": "File created by Loxa Web site exporter. http://www.j4loxa.com/sna/gephi/plugins/index.html",
+  "graphs": [
+    {
+      "name": "metro_cdmx",
+      "title": "Visualización sobre grafo del metro",
+      "tip": "",
+      "nodes": "163",
+      "edges": "183",
+      "description": "",
+      "imgColorDescription": "",
+      "graphfile": "metro_cdmx/metro_cdmx.csv",
+      "pdffile": "metro_cdmx/metro_cdmx.pdf",
+      "browsegraph": "metro_cdmx/metro_cdmx.gexf",
+      "type": "Undirected"
+      
+    }
+  ]
+}

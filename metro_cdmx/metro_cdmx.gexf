@@ -1,0 +1,2904 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2022-12-12">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="num1" title="num1" type="integer"></attribute>
+      <attribute id="num" title="num" type="integer"></attribute>
+      <attribute id="linea" title="linea" type="string"></attribute>
+      <attribute id="lat" title="lat" type="double"></attribute>
+      <attribute id="lng" title="lng" type="double"></attribute>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="distance" title="distance" type="double"></attribute>
+    </attributes>
+    <nodes>
+      <node id="Observatorio">
+        <attvalues>
+          <attvalue for="num1" value="0"></attvalue>
+          <attvalue for="num" value="1"></attvalue>
+          <attvalue for="linea" value="1"></attvalue>
+          <attvalue for="lat" value="19.398237"></attvalue>
+          <attvalue for="lng" value="-99.200363"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-1336.1664" y="-342.0625"></viz:position>
+        <viz:color r="255" g="148" b="248"></viz:color>
+      </node>
+      <node id="Tacubaya">
+        <attvalues>
+          <attvalue for="num1" value="1"></attvalue>
+          <attvalue for="num" value="2"></attvalue>
+          <attvalue for="linea" value="1"></attvalue>
+          <attvalue for="lat" value="19.403439"></attvalue>
+          <attvalue for="lng" value="-99.187102"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-1104.7183" y="-245.8125"></viz:position>
+        <viz:color r="255" g="148" b="248"></viz:color>
+      </node>
+      <node id="Juanacatlan">
+        <attvalues>
+          <attvalue for="num1" value="2"></attvalue>
+          <attvalue for="num" value="3"></attvalue>
+          <attvalue for="linea" value="1"></attvalue>
+          <attvalue for="lat" value="19.41289"></attvalue>
+          <attvalue for="lng" value="-99.182167"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-1018.5862" y="-70.90625"></viz:position>
+        <viz:color r="255" g="148" b="248"></viz:color>
+      </node>
+      <node id="Chapultepec">
+        <attvalues>
+          <attvalue for="num1" value="3"></attvalue>
+          <attvalue for="num" value="4"></attvalue>
+          <attvalue for="linea" value="1"></attvalue>
+          <attvalue for="lat" value="19.42083"></attvalue>
+          <attvalue for="lng" value="-99.176943"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-927.4102" y="76.03125"></viz:position>
+        <viz:color r="255" g="148" b="248"></viz:color>
+      </node>
+      <node id="Sevilla">
+        <attvalues>
+          <attvalue for="num1" value="4"></attvalue>
+          <attvalue for="num" value="5"></attvalue>
+          <attvalue for="linea" value="1"></attvalue>
+          <attvalue for="lat" value="19.421916"></attvalue>
+          <attvalue for="lng" value="-99.17058"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-816.3549" y="96.125"></viz:position>
+        <viz:color r="255" g="148" b="248"></viz:color>
+      </node>
+      <node id="Insurgentes">
+        <attvalues>
+          <attvalue for="num1" value="5"></attvalue>
+          <attvalue for="num" value="6"></attvalue>
+          <attvalue for="linea" value="1"></attvalue>
+          <attvalue for="lat" value="19.423292"></attvalue>
+          <attvalue for="lng" value="-99.163177"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-687.1482" y="121.59375"></viz:position>
+        <viz:color r="255" g="148" b="248"></viz:color>
+      </node>
+      <node id="Cuauhtemoc">
+        <attvalues>
+          <attvalue for="num1" value="6"></attvalue>
+          <attvalue for="num" value="7"></attvalue>
+          <attvalue for="linea" value="1"></attvalue>
+          <attvalue for="lat" value="19.425862"></attvalue>
+          <attvalue for="lng" value="-99.154701"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-539.21405" y="169.15625"></viz:position>
+        <viz:color r="255" g="148" b="248"></viz:color>
+      </node>
+      <node id="Balderas">
+        <attvalues>
+          <attvalue for="num1" value="7"></attvalue>
+          <attvalue for="num" value="8"></attvalue>
+          <attvalue for="linea" value="1"></attvalue>
+          <attvalue for="lat" value="19.42744"></attvalue>
+          <attvalue for="lng" value="-99.149036"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-440.3412" y="198.34375"></viz:position>
+        <viz:color r="255" g="148" b="248"></viz:color>
+      </node>
+      <node id="SaltodelAgua">
+        <attvalues>
+          <attvalue for="num1" value="8"></attvalue>
+          <attvalue for="num" value="9"></attvalue>
+          <attvalue for="linea" value="1"></attvalue>
+          <attvalue for="lat" value="19.426813"></attvalue>
+          <attvalue for="lng" value="-99.142213"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-321.2574" y="186.75"></viz:position>
+        <viz:color r="255" g="148" b="248"></viz:color>
+      </node>
+      <node id="IsabellaCatolica">
+        <attvalues>
+          <attvalue for="num1" value="9"></attvalue>
+          <attvalue for="num" value="10"></attvalue>
+          <attvalue for="linea" value="1"></attvalue>
+          <attvalue for="lat" value="19.426732"></attvalue>
+          <attvalue for="lng" value="-99.137685"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-242.22888" y="185.25"></viz:position>
+        <viz:color r="255" g="148" b="248"></viz:color>
+      </node>
+      <node id="PinoSuarez">
+        <attvalues>
+          <attvalue for="num1" value="10"></attvalue>
+          <attvalue for="num" value="11"></attvalue>
+          <attvalue for="linea" value="1"></attvalue>
+          <attvalue for="lat" value="19.425336"></attvalue>
+          <attvalue for="lng" value="-99.132943"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-159.46536" y="159.40625"></viz:position>
+        <viz:color r="255" g="148" b="248"></viz:color>
+      </node>
+      <node id="Merced">
+        <attvalues>
+          <attvalue for="num1" value="11"></attvalue>
+          <attvalue for="num" value="12"></attvalue>
+          <attvalue for="linea" value="1"></attvalue>
+          <attvalue for="lat" value="19.425558"></attvalue>
+          <attvalue for="lng" value="-99.124639"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-14.533216" y="163.53125"></viz:position>
+        <viz:color r="255" g="148" b="248"></viz:color>
+      </node>
+      <node id="Candelaria">
+        <attvalues>
+          <attvalue for="num1" value="12"></attvalue>
+          <attvalue for="num" value="13"></attvalue>
+          <attvalue for="linea" value="1"></attvalue>
+          <attvalue for="lat" value="19.428837"></attvalue>
+          <attvalue for="lng" value="-99.119511"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="74.96727" y="224.21875"></viz:position>
+        <viz:color r="255" g="148" b="248"></viz:color>
+      </node>
+      <node id="SanLazaro">
+        <attvalues>
+          <attvalue for="num1" value="13"></attvalue>
+          <attvalue for="num" value="14"></attvalue>
+          <attvalue for="linea" value="1"></attvalue>
+          <attvalue for="lat" value="19.430213"></attvalue>
+          <attvalue for="lng" value="-99.114833"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="156.61377" y="249.6875"></viz:position>
+        <viz:color r="255" g="148" b="248"></viz:color>
+      </node>
+      <node id="Moctezuma">
+        <attvalues>
+          <attvalue for="num1" value="14"></attvalue>
+          <attvalue for="num" value="15"></attvalue>
+          <attvalue for="linea" value="1"></attvalue>
+          <attvalue for="lat" value="19.427218"></attvalue>
+          <attvalue for="lng" value="-99.110305"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="235.64227" y="194.25"></viz:position>
+        <viz:color r="255" g="148" b="248"></viz:color>
+      </node>
+      <node id="Balbuena">
+        <attvalues>
+          <attvalue for="num1" value="15"></attvalue>
+          <attvalue for="num" value="16"></attvalue>
+          <attvalue for="linea" value="1"></attvalue>
+          <attvalue for="lat" value="19.423231"></attvalue>
+          <attvalue for="lng" value="-99.102302"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="375.32098" y="120.46875"></viz:position>
+        <viz:color r="255" g="148" b="248"></viz:color>
+      </node>
+      <node id="BlvdPuertoAereo">
+        <attvalues>
+          <attvalue for="num1" value="16"></attvalue>
+          <attvalue for="num" value="17"></attvalue>
+          <attvalue for="linea" value="1"></attvalue>
+          <attvalue for="lat" value="19.41967"></attvalue>
+          <attvalue for="lng" value="-99.09595"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="486.1843" y="54.5625"></viz:position>
+        <viz:color r="255" g="148" b="248"></viz:color>
+      </node>
+      <node id="GomezFarias">
+        <attvalues>
+          <attvalue for="num1" value="17"></attvalue>
+          <attvalue for="num" value="18"></attvalue>
+          <attvalue for="linea" value="1"></attvalue>
+          <attvalue for="lat" value="19.416472"></attvalue>
+          <attvalue for="lng" value="-99.09035"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="583.9227" y="-4.625"></viz:position>
+        <viz:color r="255" g="148" b="248"></viz:color>
+      </node>
+      <node id="Zaragoza">
+        <attvalues>
+          <attvalue for="num1" value="18"></attvalue>
+          <attvalue for="num" value="19"></attvalue>
+          <attvalue for="linea" value="1"></attvalue>
+          <attvalue for="lat" value="19.412344"></attvalue>
+          <attvalue for="lng" value="-99.08241"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="722.5019" y="-81.0"></viz:position>
+        <viz:color r="255" g="148" b="248"></viz:color>
+      </node>
+      <node id="Pantitlan">
+        <attvalues>
+          <attvalue for="num1" value="19"></attvalue>
+          <attvalue for="num" value="20"></attvalue>
+          <attvalue for="linea" value="1"></attvalue>
+          <attvalue for="lat" value="19.415359"></attvalue>
+          <attvalue for="lng" value="-99.072132"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="901.88684" y="-25.21875"></viz:position>
+        <viz:color r="255" g="148" b="248"></viz:color>
+      </node>
+      <node id="CuatroCaminos">
+        <attvalues>
+          <attvalue for="num1" value="20"></attvalue>
+          <attvalue for="num" value="21"></attvalue>
+          <attvalue for="linea" value="2"></attvalue>
+          <attvalue for="lat" value="19.459592"></attvalue>
+          <attvalue for="lng" value="-99.215899"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-1607.3207" y="793.46875"></viz:position>
+        <viz:color r="0" g="208" b="245"></viz:color>
+      </node>
+      <node id="Panteones">
+        <attvalues>
+          <attvalue for="num1" value="21"></attvalue>
+          <attvalue for="num" value="22"></attvalue>
+          <attvalue for="linea" value="2"></attvalue>
+          <attvalue for="lat" value="19.458763"></attvalue>
+          <attvalue for="lng" value="-99.203153"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-1384.8611" y="778.09375"></viz:position>
+        <viz:color r="0" g="208" b="245"></viz:color>
+      </node>
+      <node id="Tacuba">
+        <attvalues>
+          <attvalue for="num1" value="22"></attvalue>
+          <attvalue for="num" value="23"></attvalue>
+          <attvalue for="linea" value="2"></attvalue>
+          <attvalue for="lat" value="19.459349"></attvalue>
+          <attvalue for="lng" value="-99.189205"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-1141.4225" y="788.96875"></viz:position>
+        <viz:color r="0" g="208" b="245"></viz:color>
+      </node>
+      <node id="Cuitlahuac">
+        <attvalues>
+          <attvalue for="num1" value="23"></attvalue>
+          <attvalue for="num" value="24"></attvalue>
+          <attvalue for="linea" value="2"></attvalue>
+          <attvalue for="lat" value="19.457448"></attvalue>
+          <attvalue for="lng" value="-99.182038"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-1016.3347" y="753.78125"></viz:position>
+        <viz:color r="0" g="208" b="245"></viz:color>
+      </node>
+      <node id="Popotla">
+        <attvalues>
+          <attvalue for="num1" value="24"></attvalue>
+          <attvalue for="num" value="25"></attvalue>
+          <attvalue for="linea" value="2"></attvalue>
+          <attvalue for="lat" value="19.452147"></attvalue>
+          <attvalue for="lng" value="-99.1747"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-888.26245" y="655.65625"></viz:position>
+        <viz:color r="0" g="208" b="245"></viz:color>
+      </node>
+      <node id="ColegioMilitar">
+        <attvalues>
+          <attvalue for="num1" value="25"></attvalue>
+          <attvalue for="num" value="26"></attvalue>
+          <attvalue for="linea" value="2"></attvalue>
+          <attvalue for="lat" value="19.449354"></attvalue>
+          <attvalue for="lng" value="-99.172254"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-845.5717" y="603.9375"></viz:position>
+        <viz:color r="0" g="208" b="245"></viz:color>
+      </node>
+      <node id="Normal">
+        <attvalues>
+          <attvalue for="num1" value="26"></attvalue>
+          <attvalue for="num" value="27"></attvalue>
+          <attvalue for="linea" value="2"></attvalue>
+          <attvalue for="lat" value="19.4444"></attvalue>
+          <attvalue for="lng" value="-99.1674"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-760.85345" y="512.25"></viz:position>
+        <viz:color r="0" g="208" b="245"></viz:color>
+      </node>
+      <node id="SanCosme">
+        <attvalues>
+          <attvalue for="num1" value="27"></attvalue>
+          <attvalue for="num" value="28"></attvalue>
+          <attvalue for="linea" value="2"></attvalue>
+          <attvalue for="lat" value="19.441706"></attvalue>
+          <attvalue for="lng" value="-99.161096"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-650.8279" y="462.375"></viz:position>
+        <viz:color r="0" g="208" b="245"></viz:color>
+      </node>
+      <node id="Revolucion">
+        <attvalues>
+          <attvalue for="num1" value="28"></attvalue>
+          <attvalue for="num" value="29"></attvalue>
+          <attvalue for="linea" value="2"></attvalue>
+          <attvalue for="lat" value="19.441706"></attvalue>
+          <attvalue for="lng" value="-99.161096"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-650.8279" y="462.375"></viz:position>
+        <viz:color r="0" g="208" b="245"></viz:color>
+      </node>
+      <node id="Hidalgo">
+        <attvalues>
+          <attvalue for="num1" value="29"></attvalue>
+          <attvalue for="num" value="30"></attvalue>
+          <attvalue for="linea" value="2"></attvalue>
+          <attvalue for="lat" value="19.437295"></attvalue>
+          <attvalue for="lng" value="-99.147105"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-406.6389" y="380.75"></viz:position>
+        <viz:color r="0" g="208" b="245"></viz:color>
+      </node>
+      <node id="BellasArtes">
+        <attvalues>
+          <attvalue for="num1" value="30"></attvalue>
+          <attvalue for="num" value="31"></attvalue>
+          <attvalue for="linea" value="2"></attvalue>
+          <attvalue for="lat" value="19.436243"></attvalue>
+          <attvalue for="lng" value="-99.141945"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-316.5799" y="361.28125"></viz:position>
+        <viz:color r="0" g="208" b="245"></viz:color>
+      </node>
+      <node id="Allende">
+        <attvalues>
+          <attvalue for="num1" value="31"></attvalue>
+          <attvalue for="num" value="32"></attvalue>
+          <attvalue for="linea" value="2"></attvalue>
+          <attvalue for="lat" value="19.435514"></attvalue>
+          <attvalue for="lng" value="-99.137406"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-237.3594" y="347.78125"></viz:position>
+        <viz:color r="0" g="208" b="245"></viz:color>
+      </node>
+      <node id="Zocalo">
+        <attvalues>
+          <attvalue for="num1" value="32"></attvalue>
+          <attvalue for="num" value="33"></attvalue>
+          <attvalue for="linea" value="2"></attvalue>
+          <attvalue for="lat" value="19.433248"></attvalue>
+          <attvalue for="lng" value="-99.1329"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-158.71487" y="305.84375"></viz:position>
+        <viz:color r="0" g="208" b="245"></viz:color>
+      </node>
+      <node id="SanAntonioAbad">
+        <attvalues>
+          <attvalue for="num1" value="34"></attvalue>
+          <attvalue for="num" value="35"></attvalue>
+          <attvalue for="linea" value="2"></attvalue>
+          <attvalue for="lat" value="19.418597"></attvalue>
+          <attvalue for="lng" value="-99.134145"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-180.44423" y="34.71875"></viz:position>
+        <viz:color r="0" g="208" b="245"></viz:color>
+      </node>
+      <node id="Chabacano">
+        <attvalues>
+          <attvalue for="num1" value="35"></attvalue>
+          <attvalue for="num" value="36"></attvalue>
+          <attvalue for="linea" value="2"></attvalue>
+          <attvalue for="lat" value="19.406438"></attvalue>
+          <attvalue for="lng" value="-99.135754"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-208.52657" y="-190.3125"></viz:position>
+        <viz:color r="0" g="208" b="245"></viz:color>
+      </node>
+      <node id="Viaducto">
+        <attvalues>
+          <attvalue for="num1" value="36"></attvalue>
+          <attvalue for="num" value="37"></attvalue>
+          <attvalue for="linea" value="2"></attvalue>
+          <attvalue for="lat" value="19.400808"></attvalue>
+          <attvalue for="lng" value="-99.136891"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-228.37096" y="-294.46875"></viz:position>
+        <viz:color r="0" g="208" b="245"></viz:color>
+      </node>
+      <node id="Xola">
+        <attvalues>
+          <attvalue for="num1" value="37"></attvalue>
+          <attvalue for="num" value="38"></attvalue>
+          <attvalue for="linea" value="2"></attvalue>
+          <attvalue for="lat" value="19.3952"></attvalue>
+          <attvalue for="lng" value="-99.1377"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-242.49068" y="-398.25"></viz:position>
+        <viz:color r="0" g="208" b="245"></viz:color>
+      </node>
+      <node id="VilladeCortes">
+        <attvalues>
+          <attvalue for="num1" value="38"></attvalue>
+          <attvalue for="num" value="39"></attvalue>
+          <attvalue for="linea" value="2"></attvalue>
+          <attvalue for="lat" value="19.38753"></attvalue>
+          <attvalue for="lng" value="-99.138994"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-265.07523" y="-540.15625"></viz:position>
+        <viz:color r="0" g="208" b="245"></viz:color>
+      </node>
+      <node id="Nativitas">
+        <attvalues>
+          <attvalue for="num1" value="39"></attvalue>
+          <attvalue for="num" value="40"></attvalue>
+          <attvalue for="linea" value="2"></attvalue>
+          <attvalue for="lat" value="19.379474"></attvalue>
+          <attvalue for="lng" value="-99.140217"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-286.42062" y="-689.21875"></viz:position>
+        <viz:color r="0" g="208" b="245"></viz:color>
+      </node>
+      <node id="Portales">
+        <attvalues>
+          <attvalue for="num1" value="40"></attvalue>
+          <attvalue for="num" value="41"></attvalue>
+          <attvalue for="linea" value="2"></attvalue>
+          <attvalue for="lat" value="19.3698"></attvalue>
+          <attvalue for="lng" value="-99.1416"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-310.55853" y="-868.1875"></viz:position>
+        <viz:color r="0" g="208" b="245"></viz:color>
+      </node>
+      <node id="Ermita">
+        <attvalues>
+          <attvalue for="num1" value="41"></attvalue>
+          <attvalue for="num" value="42"></attvalue>
+          <attvalue for="linea" value="2"></attvalue>
+          <attvalue for="lat" value="19.361883"></attvalue>
+          <attvalue for="lng" value="-99.142942"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-333.98083" y="-1014.65625"></viz:position>
+        <viz:color r="0" g="208" b="245"></viz:color>
+      </node>
+      <node id="GeneralAnaya">
+        <attvalues>
+          <attvalue for="num1" value="42"></attvalue>
+          <attvalue for="num" value="43"></attvalue>
+          <attvalue for="linea" value="2"></attvalue>
+          <attvalue for="lat" value="19.353259"></attvalue>
+          <attvalue for="lng" value="-99.145002"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-369.93463" y="-1174.1875"></viz:position>
+        <viz:color r="0" g="208" b="245"></viz:color>
+      </node>
+      <node id="Tasquena">
+        <attvalues>
+          <attvalue for="num1" value="43"></attvalue>
+          <attvalue for="num" value="44"></attvalue>
+          <attvalue for="linea" value="2"></attvalue>
+          <attvalue for="lat" value="19.344168"></attvalue>
+          <attvalue for="lng" value="-99.142685"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-329.49533" y="-1342.375"></viz:position>
+        <viz:color r="0" g="208" b="245"></viz:color>
+      </node>
+      <node id="IndiosVerdes">
+        <attvalues>
+          <attvalue for="num1" value="44"></attvalue>
+          <attvalue for="num" value="45"></attvalue>
+          <attvalue for="linea" value="3"></attvalue>
+          <attvalue for="lat" value="19.495358"></attvalue>
+          <attvalue for="lng" value="-99.119468"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="75.71776" y="1455.5938"></viz:position>
+        <viz:color r="169" g="219" b="0"></viz:color>
+      </node>
+      <node id="Deportivo18deMarzo">
+        <attvalues>
+          <attvalue for="num1" value="45"></attvalue>
+          <attvalue for="num" value="46"></attvalue>
+          <attvalue for="linea" value="3"></attvalue>
+          <attvalue for="lat" value="19.483747"></attvalue>
+          <attvalue for="lng" value="-99.126549"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-47.869003" y="1240.625"></viz:position>
+        <viz:color r="169" g="219" b="0"></viz:color>
+      </node>
+      <node id="Potrero">
+        <attvalues>
+          <attvalue for="num1" value="46"></attvalue>
+          <attvalue for="num" value="47"></attvalue>
+          <attvalue for="linea" value="3"></attvalue>
+          <attvalue for="lat" value="19.47691"></attvalue>
+          <attvalue for="lng" value="-99.132171"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-145.99142" y="1114.0312"></viz:position>
+        <viz:color r="169" g="219" b="0"></viz:color>
+      </node>
+      <node id="LaRaza">
+        <attvalues>
+          <attvalue for="num1" value="47"></attvalue>
+          <attvalue for="num" value="48"></attvalue>
+          <attvalue for="linea" value="3"></attvalue>
+          <attvalue for="lat" value="19.470153"></attvalue>
+          <attvalue for="lng" value="-99.136891"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-228.37096" y="988.9375"></viz:position>
+        <viz:color r="169" g="219" b="0"></viz:color>
+      </node>
+      <node id="Tlatelolco">
+        <attvalues>
+          <attvalue for="num1" value="48"></attvalue>
+          <attvalue for="num" value="49"></attvalue>
+          <attvalue for="linea" value="3"></attvalue>
+          <attvalue for="lat" value="19.454979"></attvalue>
+          <attvalue for="lng" value="-99.142814"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-331.74683" y="708.0625"></viz:position>
+        <viz:color r="169" g="219" b="0"></viz:color>
+      </node>
+      <node id="Guerrero">
+        <attvalues>
+          <attvalue for="num1" value="49"></attvalue>
+          <attvalue for="num" value="50"></attvalue>
+          <attvalue for="linea" value="3"></attvalue>
+          <attvalue for="lat" value="19.445146"></attvalue>
+          <attvalue for="lng" value="-99.145389"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-376.68906" y="526.0625"></viz:position>
+        <viz:color r="169" g="219" b="0"></viz:color>
+      </node>
+      <node id="Juarez">
+        <attvalues>
+          <attvalue for="num1" value="51"></attvalue>
+          <attvalue for="num" value="52"></attvalue>
+          <attvalue for="linea" value="3"></attvalue>
+          <attvalue for="lat" value="19.433167"></attvalue>
+          <attvalue for="lng" value="-99.147792"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-418.6293" y="304.34375"></viz:position>
+        <viz:color r="169" g="219" b="0"></viz:color>
+      </node>
+      <node id="NinosHeroes">
+        <attvalues>
+          <attvalue for="num1" value="53"></attvalue>
+          <attvalue for="num" value="54"></attvalue>
+          <attvalue for="linea" value="3"></attvalue>
+          <attvalue for="lat" value="19.419508"></attvalue>
+          <attvalue for="lng" value="-99.150581"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-467.30655" y="51.5625"></viz:position>
+        <viz:color r="169" g="219" b="0"></viz:color>
+      </node>
+      <node id="HospitalGeneral">
+        <attvalues>
+          <attvalue for="num1" value="54"></attvalue>
+          <attvalue for="num" value="55"></attvalue>
+          <attvalue for="linea" value="3"></attvalue>
+          <attvalue for="lat" value="19.413578"></attvalue>
+          <attvalue for="lng" value="-99.153886"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-524.9896" y="-58.1875"></viz:position>
+        <viz:color r="169" g="219" b="0"></viz:color>
+      </node>
+      <node id="CentroMedico">
+        <attvalues>
+          <attvalue for="num1" value="55"></attvalue>
+          <attvalue for="num" value="56"></attvalue>
+          <attvalue for="linea" value="3"></attvalue>
+          <attvalue for="lat" value="19.406637"></attvalue>
+          <attvalue for="lng" value="-99.155753"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-557.57495" y="-186.625"></viz:position>
+        <viz:color r="169" g="219" b="0"></viz:color>
+      </node>
+      <node id="Etiopia">
+        <attvalues>
+          <attvalue for="num1" value="56"></attvalue>
+          <attvalue for="num" value="57"></attvalue>
+          <attvalue for="linea" value="3"></attvalue>
+          <attvalue for="lat" value="19.395586"></attvalue>
+          <attvalue for="lng" value="-99.156268"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-566.56335" y="-391.09375"></viz:position>
+        <viz:color r="169" g="219" b="0"></viz:color>
+      </node>
+      <node id="Eugenia">
+        <attvalues>
+          <attvalue for="num1" value="57"></attvalue>
+          <attvalue for="num" value="58"></attvalue>
+          <attvalue for="linea" value="3"></attvalue>
+          <attvalue for="lat" value="19.406637"></attvalue>
+          <attvalue for="lng" value="-99.155753"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-557.57495" y="-186.625"></viz:position>
+        <viz:color r="169" g="219" b="0"></viz:color>
+      </node>
+      <node id="DivisiondelNorte">
+        <attvalues>
+          <attvalue for="num1" value="58"></attvalue>
+          <attvalue for="num" value="59"></attvalue>
+          <attvalue for="linea" value="3"></attvalue>
+          <attvalue for="lat" value="19.380021"></attvalue>
+          <attvalue for="lng" value="-99.158885"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-612.23865" y="-679.09375"></viz:position>
+        <viz:color r="169" g="219" b="0"></viz:color>
+      </node>
+      <node id="Zapata">
+        <attvalues>
+          <attvalue for="num1" value="59"></attvalue>
+          <attvalue for="num" value="60"></attvalue>
+          <attvalue for="linea" value="3"></attvalue>
+          <attvalue for="lat" value="19.370952"></attvalue>
+          <attvalue for="lng" value="-99.164937"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-717.86597" y="-846.875"></viz:position>
+        <viz:color r="169" g="219" b="0"></viz:color>
+      </node>
+      <node id="Coyoacan">
+        <attvalues>
+          <attvalue for="num1" value="60"></attvalue>
+          <attvalue for="num" value="61"></attvalue>
+          <attvalue for="linea" value="3"></attvalue>
+          <attvalue for="lat" value="19.361417"></attvalue>
+          <attvalue for="lng" value="-99.170709"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-818.6064" y="-1023.28125"></viz:position>
+        <viz:color r="169" g="219" b="0"></viz:color>
+      </node>
+      <node id="Viveros">
+        <attvalues>
+          <attvalue for="num1" value="61"></attvalue>
+          <attvalue for="num" value="62"></attvalue>
+          <attvalue for="linea" value="3"></attvalue>
+          <attvalue for="lat" value="19.353724"></attvalue>
+          <attvalue for="lng" value="-99.176052"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-911.8593" y="-1165.5938"></viz:position>
+        <viz:color r="169" g="219" b="0"></viz:color>
+      </node>
+      <node id="MiguelAdeQuevedo">
+        <attvalues>
+          <attvalue for="num1" value="62"></attvalue>
+          <attvalue for="num" value="63"></attvalue>
+          <attvalue for="linea" value="3"></attvalue>
+          <attvalue for="lat" value="19.346395"></attvalue>
+          <attvalue for="lng" value="-99.18103"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-998.7418" y="-1301.1562"></viz:position>
+        <viz:color r="169" g="219" b="0"></viz:color>
+      </node>
+      <node id="Copilco">
+        <attvalues>
+          <attvalue for="num1" value="63"></attvalue>
+          <attvalue for="num" value="64"></attvalue>
+          <attvalue for="linea" value="3"></attvalue>
+          <attvalue for="lat" value="19.335887"></attvalue>
+          <attvalue for="lng" value="-99.176652"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-922.3313" y="-1495.5312"></viz:position>
+        <viz:color r="169" g="219" b="0"></viz:color>
+      </node>
+      <node id="Universidad">
+        <attvalues>
+          <attvalue for="num1" value="64"></attvalue>
+          <attvalue for="num" value="65"></attvalue>
+          <attvalue for="linea" value="3"></attvalue>
+          <attvalue for="lat" value="19.324427"></attvalue>
+          <attvalue for="lng" value="-99.17397"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-875.52155" y="-1707.5"></viz:position>
+        <viz:color r="169" g="219" b="0"></viz:color>
+      </node>
+      <node id="MartinCarrera">
+        <attvalues>
+          <attvalue for="num1" value="65"></attvalue>
+          <attvalue for="num" value="66"></attvalue>
+          <attvalue for="linea" value="4"></attvalue>
+          <attvalue for="lat" value="19.484921"></attvalue>
+          <attvalue for="lng" value="-99.104404"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="338.63416" y="1262.3438"></viz:position>
+        <viz:color r="0" g="199" b="74"></viz:color>
+      </node>
+      <node id="Talisman">
+        <attvalues>
+          <attvalue for="num1" value="66"></attvalue>
+          <attvalue for="num" value="67"></attvalue>
+          <attvalue for="linea" value="4"></attvalue>
+          <attvalue for="lat" value="19.47428"></attvalue>
+          <attvalue for="lng" value="-99.108009"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="275.71503" y="1065.3438"></viz:position>
+        <viz:color r="0" g="199" b="74"></viz:color>
+      </node>
+      <node id="Bondojito">
+        <attvalues>
+          <attvalue for="num1" value="67"></attvalue>
+          <attvalue for="num" value="68"></attvalue>
+          <attvalue for="linea" value="4"></attvalue>
+          <attvalue for="lat" value="19.46461"></attvalue>
+          <attvalue for="lng" value="-99.111958"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="206.79198" y="886.34375"></viz:position>
+        <viz:color r="0" g="199" b="74"></viz:color>
+      </node>
+      <node id="Consulado">
+        <attvalues>
+          <attvalue for="num1" value="68"></attvalue>
+          <attvalue for="num" value="69"></attvalue>
+          <attvalue for="linea" value="4"></attvalue>
+          <attvalue for="lat" value="19.457893"></attvalue>
+          <attvalue for="lng" value="-99.113932"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="172.33917" y="762.0"></viz:position>
+        <viz:color r="0" g="199" b="74"></viz:color>
+      </node>
+      <node id="CanaldelNorte">
+        <attvalues>
+          <attvalue for="num1" value="69"></attvalue>
+          <attvalue for="num" value="70"></attvalue>
+          <attvalue for="linea" value="4"></attvalue>
+          <attvalue for="lat" value="19.449112"></attvalue>
+          <attvalue for="lng" value="-99.116507"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="127.39696" y="599.46875"></viz:position>
+        <viz:color r="0" g="199" b="74"></viz:color>
+      </node>
+      <node id="Morelos">
+        <attvalues>
+          <attvalue for="num1" value="70"></attvalue>
+          <attvalue for="num" value="71"></attvalue>
+          <attvalue for="linea" value="4"></attvalue>
+          <attvalue for="lat" value="19.438974"></attvalue>
+          <attvalue for="lng" value="-99.118266"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="96.69662" y="411.8125"></viz:position>
+        <viz:color r="0" g="199" b="74"></viz:color>
+      </node>
+      <node id="FrayServando">
+        <attvalues>
+          <attvalue for="num1" value="72"></attvalue>
+          <attvalue for="num" value="73"></attvalue>
+          <attvalue for="linea" value="4"></attvalue>
+          <attvalue for="lat" value="19.421633"></attvalue>
+          <attvalue for="lng" value="-99.120541"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="56.990376" y="90.875"></viz:position>
+        <viz:color r="0" g="199" b="74"></viz:color>
+      </node>
+      <node id="Jamaica">
+        <attvalues>
+          <attvalue for="num1" value="73"></attvalue>
+          <attvalue for="num" value="74"></attvalue>
+          <attvalue for="linea" value="4"></attvalue>
+          <attvalue for="lat" value="19.409004"></attvalue>
+          <attvalue for="lng" value="-99.122171"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="28.541508" y="-142.8125"></viz:position>
+        <viz:color r="0" g="199" b="74"></viz:color>
+      </node>
+      <node id="SantaAnita">
+        <attvalues>
+          <attvalue for="num1" value="74"></attvalue>
+          <attvalue for="num" value="75"></attvalue>
+          <attvalue for="linea" value="4"></attvalue>
+          <attvalue for="lat" value="19.40273"></attvalue>
+          <attvalue for="lng" value="-99.121699"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="36.779465" y="-258.90625"></viz:position>
+        <viz:color r="0" g="199" b="74"></viz:color>
+      </node>
+      <node id="Politecnico">
+        <attvalues>
+          <attvalue for="num1" value="75"></attvalue>
+          <attvalue for="num" value="76"></attvalue>
+          <attvalue for="linea" value="5"></attvalue>
+          <attvalue for="lat" value="19.50082"></attvalue>
+          <attvalue for="lng" value="-99.149294"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-444.84415" y="1556.7188"></viz:position>
+        <viz:color r="238" g="255" b="41"></viz:color>
+      </node>
+      <node id="InstdelPetroleo">
+        <attvalues>
+          <attvalue for="num1" value="76"></attvalue>
+          <attvalue for="num" value="77"></attvalue>
+          <attvalue for="linea" value="5"></attvalue>
+          <attvalue for="lat" value="19.489573"></attvalue>
+          <attvalue for="lng" value="-99.14526"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-374.43756" y="1348.4688"></viz:position>
+        <viz:color r="238" g="255" b="41"></viz:color>
+      </node>
+      <node id="AutobusesdelNorte">
+        <attvalues>
+          <attvalue for="num1" value="77"></attvalue>
+          <attvalue for="num" value="78"></attvalue>
+          <attvalue for="linea" value="5"></attvalue>
+          <attvalue for="lat" value="19.478973"></attvalue>
+          <attvalue for="lng" value="-99.140668"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-294.29205" y="1152.2188"></viz:position>
+        <viz:color r="238" g="255" b="41"></viz:color>
+      </node>
+      <node id="Misterios">
+        <attvalues>
+          <attvalue for="num1" value="79"></attvalue>
+          <attvalue for="num" value="80"></attvalue>
+          <attvalue for="linea" value="5"></attvalue>
+          <attvalue for="lat" value="19.463315"></attvalue>
+          <attvalue for="lng" value="-99.130797"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-122.01059" y="862.375"></viz:position>
+        <viz:color r="238" g="255" b="41"></viz:color>
+      </node>
+      <node id="ValleGomez">
+        <attvalues>
+          <attvalue for="num1" value="80"></attvalue>
+          <attvalue for="num" value="81"></attvalue>
+          <attvalue for="linea" value="5"></attvalue>
+          <attvalue for="lat" value="19.458742"></attvalue>
+          <attvalue for="lng" value="-99.119296"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="78.71973" y="777.71875"></viz:position>
+        <viz:color r="238" g="255" b="41"></viz:color>
+      </node>
+      <node id="EduardoMolina">
+        <attvalues>
+          <attvalue for="num1" value="82"></attvalue>
+          <attvalue for="num" value="83"></attvalue>
+          <attvalue for="linea" value="5"></attvalue>
+          <attvalue for="lat" value="19.451378"></attvalue>
+          <attvalue for="lng" value="-99.105434"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="320.65726" y="641.40625"></viz:position>
+        <viz:color r="238" g="255" b="41"></viz:color>
+      </node>
+      <node id="Aragon">
+        <attvalues>
+          <attvalue for="num1" value="83"></attvalue>
+          <attvalue for="num" value="84"></attvalue>
+          <attvalue for="linea" value="5"></attvalue>
+          <attvalue for="lat" value="19.451236"></attvalue>
+          <attvalue for="lng" value="-99.095886"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="487.3013" y="638.78125"></viz:position>
+        <viz:color r="238" g="255" b="41"></viz:color>
+      </node>
+      <node id="Oceania">
+        <attvalues>
+          <attvalue for="num1" value="84"></attvalue>
+          <attvalue for="num" value="85"></attvalue>
+          <attvalue for="linea" value="5"></attvalue>
+          <attvalue for="lat" value="19.445672"></attvalue>
+          <attvalue for="lng" value="-99.087238"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="638.2374" y="535.78125"></viz:position>
+        <viz:color r="238" g="255" b="41"></viz:color>
+      </node>
+      <node id="TerminalAerea">
+        <attvalues>
+          <attvalue for="num1" value="85"></attvalue>
+          <attvalue for="num" value="86"></attvalue>
+          <attvalue for="linea" value="5"></attvalue>
+          <attvalue for="lat" value="19.433734"></attvalue>
+          <attvalue for="lng" value="-99.087667"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="630.74994" y="314.84375"></viz:position>
+        <viz:color r="238" g="255" b="41"></viz:color>
+      </node>
+      <node id="Hangares">
+        <attvalues>
+          <attvalue for="num1" value="86"></attvalue>
+          <attvalue for="num" value="87"></attvalue>
+          <attvalue for="linea" value="5"></attvalue>
+          <attvalue for="lat" value="19.424142"></attvalue>
+          <attvalue for="lng" value="-99.087496"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="633.73444" y="137.3125"></viz:position>
+        <viz:color r="238" g="255" b="41"></viz:color>
+      </node>
+      <node id="ElRosario">
+        <attvalues>
+          <attvalue for="num1" value="88"></attvalue>
+          <attvalue for="num" value="89"></attvalue>
+          <attvalue for="linea" value="6"></attvalue>
+          <attvalue for="lat" value="19.504541"></attvalue>
+          <attvalue for="lng" value="-99.20002"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-1330.1799" y="1625.5938"></viz:position>
+        <viz:color r="255" g="0" b="46"></viz:color>
+      </node>
+      <node id="Tezozomoc">
+        <attvalues>
+          <attvalue for="num1" value="89"></attvalue>
+          <attvalue for="num" value="90"></attvalue>
+          <attvalue for="linea" value="6"></attvalue>
+          <attvalue for="lat" value="19.495116"></attvalue>
+          <attvalue for="lng" value="-99.196286"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-1265.0093" y="1451.0938"></viz:position>
+        <viz:color r="255" g="0" b="46"></viz:color>
+      </node>
+      <node id="Azcapotzalco">
+        <attvalues>
+          <attvalue for="num1" value="90"></attvalue>
+          <attvalue for="num" value="91"></attvalue>
+          <attvalue for="linea" value="6"></attvalue>
+          <attvalue for="lat" value="19.490989"></attvalue>
+          <attvalue for="lng" value="-99.186416"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-1092.7454" y="1374.6875"></viz:position>
+        <viz:color r="255" g="0" b="46"></viz:color>
+      </node>
+      <node id="Ferreria">
+        <attvalues>
+          <attvalue for="num1" value="91"></attvalue>
+          <attvalue for="num" value="92"></attvalue>
+          <attvalue for="linea" value="6"></attvalue>
+          <attvalue for="lat" value="19.490746"></attvalue>
+          <attvalue for="lng" value="-99.173841"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-873.2701" y="1370.1875"></viz:position>
+        <viz:color r="255" g="0" b="46"></viz:color>
+      </node>
+      <node id="Norte45">
+        <attvalues>
+          <attvalue for="num1" value="92"></attvalue>
+          <attvalue for="num" value="93"></attvalue>
+          <attvalue for="linea" value="6"></attvalue>
+          <attvalue for="lat" value="19.488683"></attvalue>
+          <attvalue for="lng" value="-99.162769"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-680.0272" y="1332.0"></viz:position>
+        <viz:color r="255" g="0" b="46"></viz:color>
+      </node>
+      <node id="Vallejo">
+        <attvalues>
+          <attvalue for="num1" value="93"></attvalue>
+          <attvalue for="num" value="94"></attvalue>
+          <attvalue for="linea" value="6"></attvalue>
+          <attvalue for="lat" value="19.490625"></attvalue>
+          <attvalue for="lng" value="-99.15586"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-559.44244" y="1367.9375"></viz:position>
+        <viz:color r="255" g="0" b="46"></viz:color>
+      </node>
+      <node id="Lindavista">
+        <attvalues>
+          <attvalue for="num1" value="95"></attvalue>
+          <attvalue for="num" value="96"></attvalue>
+          <attvalue for="linea" value="6"></attvalue>
+          <attvalue for="lat" value="19.487712"></attvalue>
+          <attvalue for="lng" value="-99.13466"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-189.43266" y="1314.0312"></viz:position>
+        <viz:color r="255" g="0" b="46"></viz:color>
+      </node>
+      <node id="LaVillaBasilica">
+        <attvalues>
+          <attvalue for="num1" value="97"></attvalue>
+          <attvalue for="num" value="98"></attvalue>
+          <attvalue for="linea" value="6"></attvalue>
+          <attvalue for="lat" value="19.481522"></attvalue>
+          <attvalue for="lng" value="-99.117923"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="102.6831" y="1199.4062"></viz:position>
+        <viz:color r="255" g="0" b="46"></viz:color>
+      </node>
+      <node id="AquilesSerdan">
+        <attvalues>
+          <attvalue for="num1" value="100"></attvalue>
+          <attvalue for="num" value="101"></attvalue>
+          <attvalue for="linea" value="7"></attvalue>
+          <attvalue for="lat" value="19.490423"></attvalue>
+          <attvalue for="lng" value="-99.19487"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-1240.2954" y="1364.2188"></viz:position>
+        <viz:color r="255" g="146" b="117"></viz:color>
+      </node>
+      <node id="Camarones">
+        <attvalues>
+          <attvalue for="num1" value="101"></attvalue>
+          <attvalue for="num" value="102"></attvalue>
+          <attvalue for="linea" value="7"></attvalue>
+          <attvalue for="lat" value="19.479135"></attvalue>
+          <attvalue for="lng" value="-99.190063"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-1156.3975" y="1155.2188"></viz:position>
+        <viz:color r="255" g="146" b="117"></viz:color>
+      </node>
+      <node id="Refineria">
+        <attvalues>
+          <attvalue for="num1" value="102"></attvalue>
+          <attvalue for="num" value="103"></attvalue>
+          <attvalue for="linea" value="7"></attvalue>
+          <attvalue for="lat" value="19.469951"></attvalue>
+          <attvalue for="lng" value="-99.190578"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-1165.3859" y="985.21875"></viz:position>
+        <viz:color r="255" g="146" b="117"></viz:color>
+      </node>
+      <node id="SanJoaquin">
+        <attvalues>
+          <attvalue for="num1" value="104"></attvalue>
+          <attvalue for="num" value="105"></attvalue>
+          <attvalue for="linea" value="7"></attvalue>
+          <attvalue for="lat" value="19.445793"></attvalue>
+          <attvalue for="lng" value="-99.191823"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-1187.1152" y="538.03125"></viz:position>
+        <viz:color r="255" g="146" b="117"></viz:color>
+      </node>
+      <node id="Polanco">
+        <attvalues>
+          <attvalue for="num1" value="105"></attvalue>
+          <attvalue for="num" value="106"></attvalue>
+          <attvalue for="linea" value="7"></attvalue>
+          <attvalue for="lat" value="19.433511"></attvalue>
+          <attvalue for="lng" value="-99.191029"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-1173.2573" y="310.71875"></viz:position>
+        <viz:color r="255" g="146" b="117"></viz:color>
+      </node>
+      <node id="Auditorio">
+        <attvalues>
+          <attvalue for="num1" value="106"></attvalue>
+          <attvalue for="num" value="107"></attvalue>
+          <attvalue for="linea" value="7"></attvalue>
+          <attvalue for="lat" value="19.425498"></attvalue>
+          <attvalue for="lng" value="-99.191995"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-1190.1172" y="162.40625"></viz:position>
+        <viz:color r="255" g="146" b="117"></viz:color>
+      </node>
+      <node id="Constituyentes">
+        <attvalues>
+          <attvalue for="num1" value="107"></attvalue>
+          <attvalue for="num" value="108"></attvalue>
+          <attvalue for="linea" value="7"></attvalue>
+          <attvalue for="lat" value="19.411858"></attvalue>
+          <attvalue for="lng" value="-99.191265"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-1177.3763" y="-90.0"></viz:position>
+        <viz:color r="255" g="146" b="117"></viz:color>
+      </node>
+      <node id="SanPedrodelosPinos">
+        <attvalues>
+          <attvalue for="num1" value="109"></attvalue>
+          <attvalue for="num" value="110"></attvalue>
+          <attvalue for="linea" value="7"></attvalue>
+          <attvalue for="lat" value="19.391275"></attvalue>
+          <attvalue for="lng" value="-99.186051"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-1086.3749" y="-470.875"></viz:position>
+        <viz:color r="255" g="146" b="117"></viz:color>
+      </node>
+      <node id="SanAntonio">
+        <attvalues>
+          <attvalue for="num1" value="110"></attvalue>
+          <attvalue for="num" value="111"></attvalue>
+          <attvalue for="linea" value="7"></attvalue>
+          <attvalue for="lat" value="19.384757"></attvalue>
+          <attvalue for="lng" value="-99.186308"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-1090.8604" y="-591.46875"></viz:position>
+        <viz:color r="255" g="146" b="117"></viz:color>
+      </node>
+      <node id="Mixcoac">
+        <attvalues>
+          <attvalue for="num1" value="111"></attvalue>
+          <attvalue for="num" value="112"></attvalue>
+          <attvalue for="linea" value="7"></attvalue>
+          <attvalue for="lat" value="19.375891"></attvalue>
+          <attvalue for="lng" value="-99.187531"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-1112.2057" y="-755.5"></viz:position>
+        <viz:color r="255" g="146" b="117"></viz:color>
+      </node>
+      <node id="BarrancadelMuerto">
+        <attvalues>
+          <attvalue for="num1" value="112"></attvalue>
+          <attvalue for="num" value="113"></attvalue>
+          <attvalue for="linea" value="7"></attvalue>
+          <attvalue for="lat" value="19.360648"></attvalue>
+          <attvalue for="lng" value="-99.190149"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-1157.8984" y="-1037.5"></viz:position>
+        <viz:color r="255" g="146" b="117"></viz:color>
+      </node>
+      <node id="Garibaldi">
+        <attvalues>
+          <attvalue for="num1" value="113"></attvalue>
+          <attvalue for="num" value="114"></attvalue>
+          <attvalue for="linea" value="8"></attvalue>
+          <attvalue for="lat" value="19.444458"></attvalue>
+          <attvalue for="lng" value="-99.139734"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-277.99066" y="513.3125"></viz:position>
+        <viz:color r="27" g="158" b="0"></viz:color>
+      </node>
+      <node id="SanJuandeLetran">
+        <attvalues>
+          <attvalue for="num1" value="115"></attvalue>
+          <attvalue for="num" value="116"></attvalue>
+          <attvalue for="linea" value="8"></attvalue>
+          <attvalue for="lat" value="19.431305"></attvalue>
+          <attvalue for="lng" value="-99.141569"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-310.01746" y="269.875"></viz:position>
+        <viz:color r="27" g="158" b="0"></viz:color>
+      </node>
+      <node id="Doctores">
+        <attvalues>
+          <attvalue for="num1" value="117"></attvalue>
+          <attvalue for="num" value="118"></attvalue>
+          <attvalue for="linea" value="8"></attvalue>
+          <attvalue for="lat" value="19.421612"></attvalue>
+          <attvalue for="lng" value="-99.143372"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-341.48575" y="90.5"></viz:position>
+        <viz:color r="27" g="158" b="0"></viz:color>
+      </node>
+      <node id="Obrera">
+        <attvalues>
+          <attvalue for="num1" value="118"></attvalue>
+          <attvalue for="num" value="119"></attvalue>
+          <attvalue for="linea" value="8"></attvalue>
+          <attvalue for="lat" value="19.413558"></attvalue>
+          <attvalue for="lng" value="-99.144187"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-355.71017" y="-58.53125"></viz:position>
+        <viz:color r="27" g="158" b="0"></viz:color>
+      </node>
+      <node id="LaViga">
+        <attvalues>
+          <attvalue for="num1" value="120"></attvalue>
+          <attvalue for="num" value="121"></attvalue>
+          <attvalue for="linea" value="8"></attvalue>
+          <attvalue for="lat" value="19.406495"></attvalue>
+          <attvalue for="lng" value="-99.126248"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-42.615562" y="-189.25"></viz:position>
+        <viz:color r="27" g="158" b="0"></viz:color>
+      </node>
+      <node id="Coyuya">
+        <attvalues>
+          <attvalue for="num1" value="122"></attvalue>
+          <attvalue for="num" value="123"></attvalue>
+          <attvalue for="linea" value="8"></attvalue>
+          <attvalue for="lat" value="19.398521"></attvalue>
+          <attvalue for="lng" value="-99.113545"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="179.0936" y="-336.8125"></viz:position>
+        <viz:color r="27" g="158" b="0"></viz:color>
+      </node>
+      <node id="Iztacalco">
+        <attvalues>
+          <attvalue for="num1" value="123"></attvalue>
+          <attvalue for="num" value="124"></attvalue>
+          <attvalue for="linea" value="8"></attvalue>
+          <attvalue for="lat" value="19.398521"></attvalue>
+          <attvalue for="lng" value="-99.113545"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="179.0936" y="-336.8125"></viz:position>
+        <viz:color r="27" g="158" b="0"></viz:color>
+      </node>
+      <node id="Apatlaco">
+        <attvalues>
+          <attvalue for="num1" value="124"></attvalue>
+          <attvalue for="num" value="125"></attvalue>
+          <attvalue for="linea" value="8"></attvalue>
+          <attvalue for="lat" value="19.379292"></attvalue>
+          <attvalue for="lng" value="-99.109597"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="247.9992" y="-692.59375"></viz:position>
+        <viz:color r="27" g="158" b="0"></viz:color>
+      </node>
+      <node id="Aculco">
+        <attvalues>
+          <attvalue for="num1" value="125"></attvalue>
+          <attvalue for="num" value="126"></attvalue>
+          <attvalue for="linea" value="8"></attvalue>
+          <attvalue for="lat" value="19.374069"></attvalue>
+          <attvalue for="lng" value="-99.108095"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="274.21405" y="-789.21875"></viz:position>
+        <viz:color r="27" g="158" b="0"></viz:color>
+      </node>
+      <node id="Escuadron201">
+        <attvalues>
+          <attvalue for="num1" value="126"></attvalue>
+          <attvalue for="num" value="127"></attvalue>
+          <attvalue for="linea" value="8"></attvalue>
+          <attvalue for="lat" value="19.36492"></attvalue>
+          <attvalue for="lng" value="-99.109554"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="248.7497" y="-958.46875"></viz:position>
+        <viz:color r="27" g="158" b="0"></viz:color>
+      </node>
+      <node id="Atlalilco">
+        <attvalues>
+          <attvalue for="num1" value="127"></attvalue>
+          <attvalue for="num" value="128"></attvalue>
+          <attvalue for="linea" value="8"></attvalue>
+          <attvalue for="lat" value="19.356134"></attvalue>
+          <attvalue for="lng" value="-99.101315"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="392.54736" y="-1121.0"></viz:position>
+        <viz:color r="27" g="158" b="0"></viz:color>
+      </node>
+      <node id="Iztapalapa">
+        <attvalues>
+          <attvalue for="num1" value="128"></attvalue>
+          <attvalue for="num" value="129"></attvalue>
+          <attvalue for="linea" value="8"></attvalue>
+          <attvalue for="lat" value="19.357834"></attvalue>
+          <attvalue for="lng" value="-99.093461"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="529.62555" y="-1089.5625"></viz:position>
+        <viz:color r="27" g="158" b="0"></viz:color>
+      </node>
+      <node id="CerrodelaEstrella">
+        <attvalues>
+          <attvalue for="num1" value="129"></attvalue>
+          <attvalue for="num" value="130"></attvalue>
+          <attvalue for="linea" value="8"></attvalue>
+          <attvalue for="lat" value="19.356012"></attvalue>
+          <attvalue for="lng" value="-99.085522"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="668.18726" y="-1123.2812"></viz:position>
+        <viz:color r="27" g="158" b="0"></viz:color>
+      </node>
+      <node id="UAMI">
+        <attvalues>
+          <attvalue for="num1" value="130"></attvalue>
+          <attvalue for="num" value="131"></attvalue>
+          <attvalue for="linea" value="8"></attvalue>
+          <attvalue for="lat" value="19.351234"></attvalue>
+          <attvalue for="lng" value="-99.074707"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="856.9446" y="-1211.6562"></viz:position>
+        <viz:color r="27" g="158" b="0"></viz:color>
+      </node>
+      <node id="Constde1917">
+        <attvalues>
+          <attvalue for="num1" value="131"></attvalue>
+          <attvalue for="num" value="132"></attvalue>
+          <attvalue for="linea" value="8"></attvalue>
+          <attvalue for="lat" value="19.34593"></attvalue>
+          <attvalue for="lng" value="-99.063892"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="1045.7019" y="-1309.7812"></viz:position>
+        <viz:color r="27" g="158" b="0"></viz:color>
+      </node>
+      <node id="Patriotismo">
+        <attvalues>
+          <attvalue for="num1" value="133"></attvalue>
+          <attvalue for="num" value="134"></attvalue>
+          <attvalue for="linea" value="9"></attvalue>
+          <attvalue for="lat" value="19.406212"></attvalue>
+          <attvalue for="lng" value="-99.178905"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-961.65356" y="-194.46875"></viz:position>
+        <viz:color r="0" g="31" b="51"></viz:color>
+      </node>
+      <node id="Chilpancingo">
+        <attvalues>
+          <attvalue for="num1" value="134"></attvalue>
+          <attvalue for="num" value="135"></attvalue>
+          <attvalue for="linea" value="9"></attvalue>
+          <attvalue for="lat" value="19.406131"></attvalue>
+          <attvalue for="lng" value="-99.168477"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-779.65063" y="-195.96875"></viz:position>
+        <viz:color r="0" g="31" b="51"></viz:color>
+      </node>
+      <node id="LazaroCardenas">
+        <attvalues>
+          <attvalue for="num1" value="136"></attvalue>
+          <attvalue for="num" value="137"></attvalue>
+          <attvalue for="linea" value="9"></attvalue>
+          <attvalue for="lat" value="19.40696"></attvalue>
+          <attvalue for="lng" value="-99.144874"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-367.7006" y="-180.65625"></viz:position>
+        <viz:color r="0" g="31" b="51"></viz:color>
+      </node>
+      <node id="Mixiuhca">
+        <attvalues>
+          <attvalue for="num1" value="139"></attvalue>
+          <attvalue for="num" value="140"></attvalue>
+          <attvalue for="linea" value="9"></attvalue>
+          <attvalue for="lat" value="19.408478"></attvalue>
+          <attvalue for="lng" value="-99.112902"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="190.31607" y="-152.5625"></viz:position>
+        <viz:color r="0" g="31" b="51"></viz:color>
+      </node>
+      <node id="Velodromo">
+        <attvalues>
+          <attvalue for="num1" value="140"></attvalue>
+          <attvalue for="num" value="141"></attvalue>
+          <attvalue for="linea" value="9"></attvalue>
+          <attvalue for="lat" value="19.408478"></attvalue>
+          <attvalue for="lng" value="-99.103074"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="361.84702" y="-152.5625"></viz:position>
+        <viz:color r="0" g="31" b="51"></viz:color>
+      </node>
+      <node id="CiudadDeportiva">
+        <attvalues>
+          <attvalue for="num1" value="141"></attvalue>
+          <attvalue for="num" value="142"></attvalue>
+          <attvalue for="linea" value="9"></attvalue>
+          <attvalue for="lat" value="19.408357"></attvalue>
+          <attvalue for="lng" value="-99.091229"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="568.5813" y="-154.78125"></viz:position>
+        <viz:color r="0" g="31" b="51"></viz:color>
+      </node>
+      <node id="Puebla">
+        <attvalues>
+          <attvalue for="num1" value="142"></attvalue>
+          <attvalue for="num" value="143"></attvalue>
+          <attvalue for="linea" value="9"></attvalue>
+          <attvalue for="lat" value="19.407142"></attvalue>
+          <attvalue for="lng" value="-99.082432"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="722.1179" y="-177.28125"></viz:position>
+        <viz:color r="0" g="31" b="51"></viz:color>
+      </node>
+      <node id="AgricolaOriental">
+        <attvalues>
+          <attvalue for="num1" value="145"></attvalue>
+          <attvalue for="num" value="146"></attvalue>
+          <attvalue for="linea" value="10"></attvalue>
+          <attvalue for="lat" value="19.404835"></attvalue>
+          <attvalue for="lng" value="-99.069901"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="940.82513" y="-219.96875"></viz:position>
+        <viz:color r="167" g="0" b="235"></viz:color>
+      </node>
+      <node id="CanaldeSanJuan">
+        <attvalues>
+          <attvalue for="num1" value="146"></attvalue>
+          <attvalue for="num" value="147"></attvalue>
+          <attvalue for="linea" value="10"></attvalue>
+          <attvalue for="lat" value="19.398683"></attvalue>
+          <attvalue for="lng" value="-99.059365"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="1124.713" y="-333.8125"></viz:position>
+        <viz:color r="167" g="0" b="235"></viz:color>
+      </node>
+      <node id="Tepalcates">
+        <attvalues>
+          <attvalue for="num1" value="147"></attvalue>
+          <attvalue for="num" value="148"></attvalue>
+          <attvalue for="linea" value="10"></attvalue>
+          <attvalue for="lat" value="19.391335"></attvalue>
+          <attvalue for="lng" value="-99.046383"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="1351.2916" y="-469.75"></viz:position>
+        <viz:color r="167" g="0" b="235"></viz:color>
+      </node>
+      <node id="Guelatao">
+        <attvalues>
+          <attvalue for="num1" value="148"></attvalue>
+          <attvalue for="num" value="149"></attvalue>
+          <attvalue for="linea" value="10"></attvalue>
+          <attvalue for="lat" value="19.385162"></attvalue>
+          <attvalue for="lng" value="-99.03574"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="1537.047" y="-583.96875"></viz:position>
+        <viz:color r="167" g="0" b="235"></viz:color>
+      </node>
+      <node id="PenonViejo">
+        <attvalues>
+          <attvalue for="num1" value="149"></attvalue>
+          <attvalue for="num" value="150"></attvalue>
+          <attvalue for="linea" value="10"></attvalue>
+          <attvalue for="lat" value="19.37332"></attvalue>
+          <attvalue for="lng" value="-99.017093"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="1862.4985" y="-803.0625"></viz:position>
+        <viz:color r="167" g="0" b="235"></viz:color>
+      </node>
+      <node id="Acatitla">
+        <attvalues>
+          <attvalue for="num1" value="150"></attvalue>
+          <attvalue for="num" value="151"></attvalue>
+          <attvalue for="linea" value="10"></attvalue>
+          <attvalue for="lat" value="19.364737"></attvalue>
+          <attvalue for="lng" value="-99.005892"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="2057.993" y="-961.875"></viz:position>
+        <viz:color r="167" g="0" b="235"></viz:color>
+      </node>
+      <node id="SantaMarta">
+        <attvalues>
+          <attvalue for="num1" value="151"></attvalue>
+          <attvalue for="num" value="152"></attvalue>
+          <attvalue for="linea" value="10"></attvalue>
+          <attvalue for="lat" value="19.36"></attvalue>
+          <attvalue for="lng" value="-98.994863"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="2250.4854" y="-1049.5"></viz:position>
+        <viz:color r="167" g="0" b="235"></viz:color>
+      </node>
+      <node id="LosReyes">
+        <attvalues>
+          <attvalue for="num1" value="152"></attvalue>
+          <attvalue for="num" value="153"></attvalue>
+          <attvalue for="linea" value="10"></attvalue>
+          <attvalue for="lat" value="19.358968"></attvalue>
+          <attvalue for="lng" value="-98.976903"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="2563.9465" y="-1068.5938"></viz:position>
+        <viz:color r="167" g="0" b="235"></viz:color>
+      </node>
+      <node id="LaPaz">
+        <attvalues>
+          <attvalue for="num1" value="153"></attvalue>
+          <attvalue for="num" value="154"></attvalue>
+          <attvalue for="linea" value="10"></attvalue>
+          <attvalue for="lat" value="19.350526"></attvalue>
+          <attvalue for="lng" value="-98.960745"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="2845.9568" y="-1224.75"></viz:position>
+        <viz:color r="167" g="0" b="235"></viz:color>
+      </node>
+      <node id="Buenavista">
+        <attvalues>
+          <attvalue for="num1" value="154"></attvalue>
+          <attvalue for="num" value="155"></attvalue>
+          <attvalue for="linea" value="11"></attvalue>
+          <attvalue for="lat" value="19.446603"></attvalue>
+          <attvalue for="lng" value="-99.153199"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-512.9992" y="553.03125"></viz:position>
+        <viz:color r="158" g="158" b="158"></viz:color>
+      </node>
+      <node id="Lagunilla">
+        <attvalues>
+          <attvalue for="num1" value="157"></attvalue>
+          <attvalue for="num" value="158"></attvalue>
+          <attvalue for="linea" value="11"></attvalue>
+          <attvalue for="lat" value="19.443386"></attvalue>
+          <attvalue for="lng" value="-99.131334"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-131.38301" y="493.5"></viz:position>
+        <viz:color r="158" g="158" b="158"></viz:color>
+      </node>
+      <node id="Tepito">
+        <attvalues>
+          <attvalue for="num1" value="158"></attvalue>
+          <attvalue for="num" value="159"></attvalue>
+          <attvalue for="linea" value="11"></attvalue>
+          <attvalue for="lat" value="19.442495"></attvalue>
+          <attvalue for="lng" value="-99.12333"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="8.313143" y="477.0"></viz:position>
+        <viz:color r="158" g="158" b="158"></viz:color>
+      </node>
+      <node id="RcardoFloresMagon">
+        <attvalues>
+          <attvalue for="num1" value="161"></attvalue>
+          <attvalue for="num" value="162"></attvalue>
+          <attvalue for="linea" value="11"></attvalue>
+          <attvalue for="lat" value="19.436567"></attvalue>
+          <attvalue for="lng" value="-99.103675"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="351.3576" y="367.28125"></viz:position>
+        <viz:color r="158" g="158" b="158"></viz:color>
+      </node>
+      <node id="RomeroRubio">
+        <attvalues>
+          <attvalue for="num1" value="162"></attvalue>
+          <attvalue for="num" value="163"></attvalue>
+          <attvalue for="linea" value="11"></attvalue>
+          <attvalue for="lat" value="19.436567"></attvalue>
+          <attvalue for="lng" value="-99.103675"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="351.3576" y="367.28125"></viz:position>
+        <viz:color r="158" g="158" b="158"></viz:color>
+      </node>
+      <node id="DeportivoOceania">
+        <attvalues>
+          <attvalue for="num1" value="164"></attvalue>
+          <attvalue for="num" value="165"></attvalue>
+          <attvalue for="linea" value="11"></attvalue>
+          <attvalue for="lat" value="19.451034"></attvalue>
+          <attvalue for="lng" value="-99.07917"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="779.05054" y="635.03125"></viz:position>
+        <viz:color r="158" g="158" b="158"></viz:color>
+      </node>
+      <node id="BosquedeAragon">
+        <attvalues>
+          <attvalue for="num1" value="165"></attvalue>
+          <attvalue for="num" value="166"></attvalue>
+          <attvalue for="linea" value="11"></attvalue>
+          <attvalue for="lat" value="19.458115"></attvalue>
+          <attvalue for="lng" value="-99.069192"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="953.1995" y="766.125"></viz:position>
+        <viz:color r="158" g="158" b="158"></viz:color>
+      </node>
+      <node id="VilladeAragon">
+        <attvalues>
+          <attvalue for="num1" value="166"></attvalue>
+          <attvalue for="num" value="167"></attvalue>
+          <attvalue for="linea" value="11"></attvalue>
+          <attvalue for="lat" value="19.461656"></attvalue>
+          <attvalue for="lng" value="-99.061704"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="1083.8898" y="831.65625"></viz:position>
+        <viz:color r="158" g="158" b="158"></viz:color>
+      </node>
+      <node id="Nezahualcoyotl">
+        <attvalues>
+          <attvalue for="num1" value="167"></attvalue>
+          <attvalue for="num" value="168"></attvalue>
+          <attvalue for="linea" value="11"></attvalue>
+          <attvalue for="lat" value="19.473066"></attvalue>
+          <attvalue for="lng" value="-99.054537"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="1208.9774" y="1042.875"></viz:position>
+        <viz:color r="158" g="158" b="158"></viz:color>
+      </node>
+      <node id="Impulsora">
+        <attvalues>
+          <attvalue for="num1" value="168"></attvalue>
+          <attvalue for="num" value="169"></attvalue>
+          <attvalue for="linea" value="11"></attvalue>
+          <attvalue for="lat" value="19.485851"></attvalue>
+          <attvalue for="lng" value="-99.048915"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="1307.0999" y="1279.5625"></viz:position>
+        <viz:color r="158" g="158" b="158"></viz:color>
+      </node>
+      <node id="RiodelosRemedios">
+        <attvalues>
+          <attvalue for="num1" value="169"></attvalue>
+          <attvalue for="num" value="170"></attvalue>
+          <attvalue for="linea" value="11"></attvalue>
+          <attvalue for="lat" value="19.490908"></attvalue>
+          <attvalue for="lng" value="-99.046597"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="1347.5566" y="1373.1875"></viz:position>
+        <viz:color r="158" g="158" b="158"></viz:color>
+      </node>
+      <node id="Muzquiz">
+        <attvalues>
+          <attvalue for="num1" value="170"></attvalue>
+          <attvalue for="num" value="171"></attvalue>
+          <attvalue for="linea" value="11"></attvalue>
+          <attvalue for="lat" value="19.501629"></attvalue>
+          <attvalue for="lng" value="-99.042048"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="1426.9517" y="1571.6875"></viz:position>
+        <viz:color r="158" g="158" b="158"></viz:color>
+      </node>
+      <node id="Ecatepec">
+        <attvalues>
+          <attvalue for="num1" value="171"></attvalue>
+          <attvalue for="num" value="172"></attvalue>
+          <attvalue for="linea" value="11"></attvalue>
+          <attvalue for="lat" value="19.515301"></attvalue>
+          <attvalue for="lng" value="-99.035997"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="1532.5615" y="1824.8438"></viz:position>
+        <viz:color r="158" g="158" b="158"></viz:color>
+      </node>
+      <node id="Olimpica">
+        <attvalues>
+          <attvalue for="num1" value="172"></attvalue>
+          <attvalue for="num" value="173"></attvalue>
+          <attvalue for="linea" value="11"></attvalue>
+          <attvalue for="lat" value="19.521328"></attvalue>
+          <attvalue for="lng" value="-99.033422"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="1577.5038" y="1936.4375"></viz:position>
+        <viz:color r="158" g="158" b="158"></viz:color>
+      </node>
+      <node id="PlazaAragon">
+        <attvalues>
+          <attvalue for="num1" value="173"></attvalue>
+          <attvalue for="num" value="174"></attvalue>
+          <attvalue for="linea" value="11"></attvalue>
+          <attvalue for="lat" value="19.528447"></attvalue>
+          <attvalue for="lng" value="-99.030118"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="1635.1694" y="2068.2812"></viz:position>
+        <viz:color r="158" g="158" b="158"></viz:color>
+      </node>
+      <node id="CiudadAzteca">
+        <attvalues>
+          <attvalue for="num1" value="174"></attvalue>
+          <attvalue for="num" value="175"></attvalue>
+          <attvalue for="linea" value="11"></attvalue>
+          <attvalue for="lat" value="19.534595"></attvalue>
+          <attvalue for="lng" value="-99.0275"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="1680.8622" y="2182.125"></viz:position>
+        <viz:color r="158" g="158" b="158"></viz:color>
+      </node>
+      <node id="Tlahuac">
+        <attvalues>
+          <attvalue for="num1" value="175"></attvalue>
+          <attvalue for="num" value="176"></attvalue>
+          <attvalue for="linea" value="12"></attvalue>
+          <attvalue for="lat" value="19.285972"></attvalue>
+          <attvalue for="lng" value="-99.014194"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="1913.0956" y="-2418.6562"></viz:position>
+        <viz:color r="122" g="95" b="0"></viz:color>
+      </node>
+      <node id="Tlaltenco">
+        <attvalues>
+          <attvalue for="num1" value="176"></attvalue>
+          <attvalue for="num" value="177"></attvalue>
+          <attvalue for="linea" value="12"></attvalue>
+          <attvalue for="lat" value="19.294167"></attvalue>
+          <attvalue for="lng" value="-99.023889"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="1743.886" y="-2267.125"></viz:position>
+        <viz:color r="122" g="95" b="0"></viz:color>
+      </node>
+      <node id="Zapotitlan">
+        <attvalues>
+          <attvalue for="num1" value="177"></attvalue>
+          <attvalue for="num" value="178"></attvalue>
+          <attvalue for="linea" value="12"></attvalue>
+          <attvalue for="lat" value="19.296667"></attvalue>
+          <attvalue for="lng" value="-99.034444"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="1559.6665" y="-2220.875"></viz:position>
+        <viz:color r="122" g="95" b="0"></viz:color>
+      </node>
+      <node id="Nopalera">
+        <attvalues>
+          <attvalue for="num1" value="178"></attvalue>
+          <attvalue for="num" value="179"></attvalue>
+          <attvalue for="linea" value="12"></attvalue>
+          <attvalue for="lat" value="19.3"></attvalue>
+          <attvalue for="lng" value="-99.046667"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="1346.3348" y="-2159.25"></viz:position>
+        <viz:color r="122" g="95" b="0"></viz:color>
+      </node>
+      <node id="Olivos">
+        <attvalues>
+          <attvalue for="num1" value="179"></attvalue>
+          <attvalue for="num" value="180"></attvalue>
+          <attvalue for="linea" value="12"></attvalue>
+          <attvalue for="lat" value="19.304167"></attvalue>
+          <attvalue for="lng" value="-99.059722"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="1118.4822" y="-2082.1875"></viz:position>
+        <viz:color r="122" g="95" b="0"></viz:color>
+      </node>
+      <node id="Tezonco">
+        <attvalues>
+          <attvalue for="num1" value="180"></attvalue>
+          <attvalue for="num" value="181"></attvalue>
+          <attvalue for="linea" value="12"></attvalue>
+          <attvalue for="lat" value="19.306111"></attvalue>
+          <attvalue for="lng" value="-99.065"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="1026.3636" y="-2046.25"></viz:position>
+        <viz:color r="122" g="95" b="0"></viz:color>
+      </node>
+      <node id="PerifericoOriente">
+        <attvalues>
+          <attvalue for="num1" value="181"></attvalue>
+          <attvalue for="num" value="182"></attvalue>
+          <attvalue for="linea" value="12"></attvalue>
+          <attvalue for="lat" value="19.3177"></attvalue>
+          <attvalue for="lng" value="-99.0746"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="858.81213" y="-1831.9062"></viz:position>
+        <viz:color r="122" g="95" b="0"></viz:color>
+      </node>
+      <node id="Calle11">
+        <attvalues>
+          <attvalue for="num1" value="182"></attvalue>
+          <attvalue for="num" value="183"></attvalue>
+          <attvalue for="linea" value="12"></attvalue>
+          <attvalue for="lat" value="19.3205"></attvalue>
+          <attvalue for="lng" value="-99.0857"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="665.08057" y="-1780.125"></viz:position>
+        <viz:color r="122" g="95" b="0"></viz:color>
+      </node>
+      <node id="LomasEstrella">
+        <attvalues>
+          <attvalue for="num1" value="183"></attvalue>
+          <attvalue for="num" value="184"></attvalue>
+          <attvalue for="linea" value="12"></attvalue>
+          <attvalue for="lat" value="19.3223"></attvalue>
+          <attvalue for="lng" value="-99.0961"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="483.56628" y="-1746.8438"></viz:position>
+        <viz:color r="122" g="95" b="0"></viz:color>
+      </node>
+      <node id="SanAndresTomatlan">
+        <attvalues>
+          <attvalue for="num1" value="184"></attvalue>
+          <attvalue for="num" value="185"></attvalue>
+          <attvalue for="linea" value="12"></attvalue>
+          <attvalue for="lat" value="19.3283"></attvalue>
+          <attvalue for="lng" value="-99.1049"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="329.97733" y="-1635.875"></viz:position>
+        <viz:color r="122" g="95" b="0"></viz:color>
+      </node>
+      <node id="Culhuacan">
+        <attvalues>
+          <attvalue for="num1" value="185"></attvalue>
+          <attvalue for="num" value="186"></attvalue>
+          <attvalue for="linea" value="12"></attvalue>
+          <attvalue for="lat" value="19.337"></attvalue>
+          <attvalue for="lng" value="-99.109"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="258.41882" y="-1474.9375"></viz:position>
+        <viz:color r="122" g="95" b="0"></viz:color>
+      </node>
+      <node id="Mexicaltzingo">
+        <attvalues>
+          <attvalue for="num1" value="187"></attvalue>
+          <attvalue for="num" value="188"></attvalue>
+          <attvalue for="linea" value="12"></attvalue>
+          <attvalue for="lat" value="19.3577"></attvalue>
+          <attvalue for="lng" value="-99.1218"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="35.01668" y="-1092.0312"></viz:position>
+        <viz:color r="122" g="95" b="0"></viz:color>
+      </node>
+      <node id="EjeCentral">
+        <attvalues>
+          <attvalue for="num1" value="189"></attvalue>
+          <attvalue for="num" value="190"></attvalue>
+          <attvalue for="linea" value="12"></attvalue>
+          <attvalue for="lat" value="19.3614"></attvalue>
+          <attvalue for="lng" value="-99.1514"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-481.6008" y="-1023.59375"></viz:position>
+        <viz:color r="122" g="95" b="0"></viz:color>
+      </node>
+      <node id="ParquedelosVenados">
+        <attvalues>
+          <attvalue for="num1" value="190"></attvalue>
+          <attvalue for="num" value="191"></attvalue>
+          <attvalue for="linea" value="12"></attvalue>
+          <attvalue for="lat" value="19.3707"></attvalue>
+          <attvalue for="lng" value="-99.1587"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-609.00977" y="-851.5625"></viz:position>
+        <viz:color r="122" g="95" b="0"></viz:color>
+      </node>
+      <node id="Hospital20deNoviembre">
+        <attvalues>
+          <attvalue for="num1" value="192"></attvalue>
+          <attvalue for="num" value="193"></attvalue>
+          <attvalue for="linea" value="12"></attvalue>
+          <attvalue for="lat" value="19.372"></attvalue>
+          <attvalue for="lng" value="-99.171"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-823.6853" y="-827.5"></viz:position>
+        <viz:color r="122" g="95" b="0"></viz:color>
+      </node>
+      <node id="InsurgentesSur">
+        <attvalues>
+          <attvalue for="num1" value="193"></attvalue>
+          <attvalue for="num" value="194"></attvalue>
+          <attvalue for="linea" value="12"></attvalue>
+          <attvalue for="lat" value="19.3736"></attvalue>
+          <attvalue for="lng" value="-99.1788"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-959.821" y="-797.90625"></viz:position>
+        <viz:color r="122" g="95" b="0"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="732" source="Pantitlan" target="Zaragoza">
+        <attvalues>
+          <attvalue for="distance" value="1320.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="733" source="Pantitlan" target="Hangares">
+        <attvalues>
+          <attvalue for="distance" value="1644.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="734" source="Pantitlan" target="Puebla">
+        <attvalues>
+          <attvalue for="distance" value="1380.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="735" source="Pantitlan" target="AgricolaOriental">
+        <attvalues>
+          <attvalue for="distance" value="1409.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="737" source="Zaragoza" target="GomezFarias">
+        <attvalues>
+          <attvalue for="distance" value="762.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="739" source="GomezFarias" target="BlvdPuertoAereo">
+        <attvalues>
+          <attvalue for="distance" value="611.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="741" source="BlvdPuertoAereo" target="Balbuena">
+        <attvalues>
+          <attvalue for="distance" value="595.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="743" source="Balbuena" target="Moctezuma">
+        <attvalues>
+          <attvalue for="distance" value="703.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="745" source="Moctezuma" target="SanLazaro">
+        <attvalues>
+          <attvalue for="distance" value="478.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="747" source="SanLazaro" target="Candelaria">
+        <attvalues>
+          <attvalue for="distance" value="866.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="748" source="SanLazaro" target="Morelos">
+        <attvalues>
+          <attvalue for="distance" value="1296.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="749" source="SanLazaro" target="RcardoFloresMagon">
+        <attvalues>
+          <attvalue for="distance" value="907.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="751" source="Candelaria" target="Merced">
+        <attvalues>
+          <attvalue for="distance" value="698.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="752" source="Candelaria" target="FrayServando">
+        <attvalues>
+          <attvalue for="distance" value="633.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="753" source="Candelaria" target="Morelos">
+        <attvalues>
+          <attvalue for="distance" value="1062.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="755" source="Merced" target="PinoSuarez">
+        <attvalues>
+          <attvalue for="distance" value="745.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="757" source="PinoSuarez" target="IsabellaCatolica">
+        <attvalues>
+          <attvalue for="distance" value="382.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="758" source="PinoSuarez" target="Zocalo">
+        <attvalues>
+          <attvalue for="distance" value="745.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="759" source="PinoSuarez" target="SanAntonioAbad">
+        <attvalues>
+          <attvalue for="distance" value="817.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="761" source="IsabellaCatolica" target="SaltodelAgua">
+        <attvalues>
+          <attvalue for="distance" value="445.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="763" source="SaltodelAgua" target="Balderas">
+        <attvalues>
+          <attvalue for="distance" value="458.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="764" source="SaltodelAgua" target="SanJuandeLetran">
+        <attvalues>
+          <attvalue for="distance" value="292.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="765" source="SaltodelAgua" target="Doctores">
+        <attvalues>
+          <attvalue for="distance" value="564.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="767" source="Balderas" target="Cuauhtemoc">
+        <attvalues>
+          <attvalue for="distance" value="409.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="768" source="Balderas" target="Juarez">
+        <attvalues>
+          <attvalue for="distance" value="659.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="769" source="Balderas" target="NinosHeroes">
+        <attvalues>
+          <attvalue for="distance" value="665.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="771" source="Cuauhtemoc" target="Insurgentes">
+        <attvalues>
+          <attvalue for="distance" value="793.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="773" source="Insurgentes" target="Sevilla">
+        <attvalues>
+          <attvalue for="distance" value="645.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="775" source="Sevilla" target="Chapultepec">
+        <attvalues>
+          <attvalue for="distance" value="501.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="777" source="Chapultepec" target="Juanacatlan">
+        <attvalues>
+          <attvalue for="distance" value="973.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="779" source="Juanacatlan" target="Tacubaya">
+        <attvalues>
+          <attvalue for="distance" value="1158.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="781" source="Tacubaya" target="Constituyentes">
+        <attvalues>
+          <attvalue for="distance" value="1005.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="782" source="Tacubaya" target="SanPedrodelosPinos">
+        <attvalues>
+          <attvalue for="distance" value="1084.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="783" source="Tacubaya" target="Patriotismo">
+        <attvalues>
+          <attvalue for="distance" value="1133.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="784" source="Tacubaya" target="Observatorio">
+        <attvalues>
+          <attvalue for="distance" value="1262.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="785" source="CuatroCaminos" target="Panteones">
+        <attvalues>
+          <attvalue for="distance" value="1639.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="787" source="Panteones" target="Tacuba">
+        <attvalues>
+          <attvalue for="distance" value="1416.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="789" source="Tacuba" target="Cuitlahuac">
+        <attvalues>
+          <attvalue for="distance" value="637.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="790" source="Tacuba" target="Refineria">
+        <attvalues>
+          <attvalue for="distance" value="1295.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="791" source="Tacuba" target="SanJoaquin">
+        <attvalues>
+          <attvalue for="distance" value="1433.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="793" source="Cuitlahuac" target="Popotla">
+        <attvalues>
+          <attvalue for="distance" value="620.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="795" source="Popotla" target="ColegioMilitar">
+        <attvalues>
+          <attvalue for="distance" value="462.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="797" source="ColegioMilitar" target="Normal">
+        <attvalues>
+          <attvalue for="distance" value="516.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="799" source="Normal" target="SanCosme">
+        <attvalues>
+          <attvalue for="distance" value="657.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="801" source="SanCosme" target="Revolucion">
+        <attvalues>
+          <attvalue for="distance" value="537.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="803" source="Revolucion" target="Hidalgo">
+        <attvalues>
+          <attvalue for="distance" value="587.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="805" source="Hidalgo" target="BellasArtes">
+        <attvalues>
+          <attvalue for="distance" value="447.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="806" source="Hidalgo" target="Guerrero">
+        <attvalues>
+          <attvalue for="distance" value="702.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="807" source="Hidalgo" target="Juarez">
+        <attvalues>
+          <attvalue for="distance" value="251.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="809" source="BellasArtes" target="Allende">
+        <attvalues>
+          <attvalue for="distance" value="387.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="810" source="BellasArtes" target="Garibaldi">
+        <attvalues>
+          <attvalue for="distance" value="634.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="811" source="BellasArtes" target="SanJuandeLetran">
+        <attvalues>
+          <attvalue for="distance" value="456.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="813" source="Allende" target="Zocalo">
+        <attvalues>
+          <attvalue for="distance" value="602.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="817" source="SanAntonioAbad" target="Chabacano">
+        <attvalues>
+          <attvalue for="distance" value="642.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="819" source="Chabacano" target="Viaducto">
+        <attvalues>
+          <attvalue for="distance" value="774.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="820" source="Chabacano" target="Jamaica">
+        <attvalues>
+          <attvalue for="distance" value="1031.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="821" source="Chabacano" target="Obrera">
+        <attvalues>
+          <attvalue for="distance" value="1143.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="822" source="Chabacano" target="LaViga">
+        <attvalues>
+          <attvalue for="distance" value="843.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="823" source="Chabacano" target="LazaroCardenas">
+        <attvalues>
+          <attvalue for="distance" value="1000.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="825" source="Viaducto" target="Xola">
+        <attvalues>
+          <attvalue for="distance" value="490.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="827" source="Xola" target="VilladeCortes">
+        <attvalues>
+          <attvalue for="distance" value="698.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="829" source="VilladeCortes" target="Nativitas">
+        <attvalues>
+          <attvalue for="distance" value="750.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="831" source="Nativitas" target="Portales">
+        <attvalues>
+          <attvalue for="distance" value="924.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="833" source="Portales" target="Ermita">
+        <attvalues>
+          <attvalue for="distance" value="748.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="835" source="Ermita" target="GeneralAnaya">
+        <attvalues>
+          <attvalue for="distance" value="838.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="836" source="Ermita" target="Mexicaltzingo">
+        <attvalues>
+          <attvalue for="distance" value="1805.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="837" source="Ermita" target="EjeCentral">
+        <attvalues>
+          <attvalue for="distance" value="895.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="839" source="GeneralAnaya" target="Tasquena">
+        <attvalues>
+          <attvalue for="distance" value="1330.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="840" source="IndiosVerdes" target="Deportivo18deMarzo">
+        <viz:color r="255" g="0" b="0"></viz:color>
+        <attvalues>
+          <attvalue for="distance" value="1166.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="842" source="Deportivo18deMarzo" target="Potrero">
+        <attvalues>
+          <attvalue for="distance" value="966.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="843" source="Deportivo18deMarzo" target="Lindavista">
+        <viz:color r="255" g="0" b="0"></viz:color>
+        <attvalues>
+          <attvalue for="distance" value="1075.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="844" source="Deportivo18deMarzo" target="LaVillaBasilica">
+        <attvalues>
+          <attvalue for="distance" value="570.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="846" source="Potrero" target="LaRaza">
+        <attvalues>
+          <attvalue for="distance" value="1106.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="848" source="LaRaza" target="Tlatelolco">
+        <attvalues>
+          <attvalue for="distance" value="1445.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="849" source="LaRaza" target="AutobusesdelNorte">
+        <attvalues>
+          <attvalue for="distance" value="975.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="850" source="LaRaza" target="Misterios">
+        <attvalues>
+          <attvalue for="distance" value="892.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="852" source="Tlatelolco" target="Guerrero">
+        <attvalues>
+          <attvalue for="distance" value="1042.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="855" source="Guerrero" target="Garibaldi">
+        <attvalues>
+          <attvalue for="distance" value="757.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="856" source="Guerrero" target="Buenavista">
+        <attvalues>
+          <attvalue for="distance" value="521.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="860" source="NinosHeroes" target="HospitalGeneral">
+        <attvalues>
+          <attvalue for="distance" value="559.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="862" source="HospitalGeneral" target="CentroMedico">
+        <attvalues>
+          <attvalue for="distance" value="653.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="864" source="CentroMedico" target="Etiopia">
+        <attvalues>
+          <attvalue for="distance" value="1119.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="865" source="CentroMedico" target="LazaroCardenas">
+        <attvalues>
+          <attvalue for="distance" value="1059.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="866" source="CentroMedico" target="Chilpancingo">
+        <attvalues>
+          <attvalue for="distance" value="1152.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="868" source="Etiopia" target="Eugenia">
+        <attvalues>
+          <attvalue for="distance" value="950.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="870" source="Eugenia" target="DivisiondelNorte">
+        <attvalues>
+          <attvalue for="distance" value="715.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="871" source="DivisiondelNorte" target="Zapata">
+        <attvalues>
+          <attvalue for="distance" value="794.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="873" source="Zapata" target="Coyoacan">
+        <attvalues>
+          <attvalue for="distance" value="1153.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="874" source="Zapata" target="ParquedelosVenados">
+        <attvalues>
+          <attvalue for="distance" value="563.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="875" source="Zapata" target="Hospital20deNoviembre">
+        <attvalues>
+          <attvalue for="distance" value="450.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="877" source="Coyoacan" target="Viveros">
+        <attvalues>
+          <attvalue for="distance" value="908.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="879" source="Viveros" target="MiguelAdeQuevedo">
+        <attvalues>
+          <attvalue for="distance" value="824.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="881" source="MiguelAdeQuevedo" target="Copilco">
+        <attvalues>
+          <attvalue for="distance" value="1295.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="883" source="Copilco" target="Universidad">
+        <attvalues>
+          <attvalue for="distance" value="1306.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="884" source="SantaAnita" target="Jamaica">
+        <attvalues>
+          <attvalue for="distance" value="758.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="885" source="SantaAnita" target="LaViga">
+        <attvalues>
+          <attvalue for="distance" value="633.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="886" source="SantaAnita" target="Coyuya">
+        <attvalues>
+          <attvalue for="distance" value="968.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="889" source="Jamaica" target="FrayServando">
+        <attvalues>
+          <attvalue for="distance" value="1033.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="890" source="Jamaica" target="Mixiuhca">
+        <attvalues>
+          <attvalue for="distance" value="942.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="895" source="Morelos" target="CanaldelNorte">
+        <attvalues>
+          <attvalue for="distance" value="910.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="896" source="Morelos" target="Tepito">
+        <attvalues>
+          <attvalue for="distance" value="498.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="898" source="CanaldelNorte" target="Consulado">
+        <attvalues>
+          <attvalue for="distance" value="884.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="900" source="Consulado" target="Bondojito">
+        <attvalues>
+          <attvalue for="distance" value="645.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="901" source="Consulado" target="ValleGomez">
+        <attvalues>
+          <attvalue for="distance" value="679.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="902" source="Consulado" target="EduardoMolina">
+        <attvalues>
+          <attvalue for="distance" value="815.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="904" source="Bondojito" target="Talisman">
+        <attvalues>
+          <attvalue for="distance" value="959.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="906" source="Talisman" target="MartinCarrera">
+        <attvalues>
+          <attvalue for="distance" value="1129.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="907" source="Politecnico" target="InstdelPetroleo">
+        <attvalues>
+          <attvalue for="distance" value="1188.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="909" source="InstdelPetroleo" target="AutobusesdelNorte">
+        <attvalues>
+          <attvalue for="distance" value="1067.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="910" source="InstdelPetroleo" target="Vallejo">
+        <viz:color r="255" g="0" b="0"></viz:color>
+        <attvalues>
+          <attvalue for="distance" value="755.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="911" source="InstdelPetroleo" target="Lindavista">
+        <viz:color r="255" g="0" b="0"></viz:color>
+        <attvalues>
+          <attvalue for="distance" value="1258.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="915" source="Misterios" target="ValleGomez">
+        <attvalues>
+          <attvalue for="distance" value="969.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="919" source="EduardoMolina" target="Aragon">
+        <attvalues>
+          <attvalue for="distance" value="860.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="921" source="Aragon" target="Oceania">
+        <attvalues>
+          <attvalue for="distance" value="1219.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="923" source="Oceania" target="TerminalAerea">
+        <attvalues>
+          <attvalue for="distance" value="1174.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="924" source="Oceania" target="DeportivoOceania">
+        <attvalues>
+          <attvalue for="distance" value="863.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="925" source="Oceania" target="RomeroRubio">
+        <attvalues>
+          <attvalue for="distance" value="809.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="927" source="TerminalAerea" target="Hangares">
+        <attvalues>
+          <attvalue for="distance" value="1153.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="930" source="ElRosario" target="Tezozomoc">
+        <attvalues>
+          <attvalue for="distance" value="1257.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="931" source="ElRosario" target="AquilesSerdan">
+        <attvalues>
+          <attvalue for="distance" value="1615.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="933" source="Tezozomoc" target="Azcapotzalco">
+        <viz:color r="255" g="0" b="0"></viz:color>
+        <attvalues>
+          <attvalue for="distance" value="973.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="935" source="Azcapotzalco" target="Ferreria">
+        <viz:color r="255" g="0" b="0"></viz:color>
+        <attvalues>
+          <attvalue for="distance" value="1173.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="937" source="Ferreria" target="Norte45">
+        <viz:color r="255" g="0" b="0"></viz:color>
+        <attvalues>
+          <attvalue for="distance" value="1072.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="939" source="Norte45" target="Vallejo">
+        <viz:color r="255" g="0" b="0"></viz:color>
+        <attvalues>
+          <attvalue for="distance" value="660.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="945" source="LaVillaBasilica" target="MartinCarrera">
+        <attvalues>
+          <attvalue for="distance" value="1141.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="947" source="AquilesSerdan" target="Camarones">
+        <attvalues>
+          <attvalue for="distance" value="1402.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="949" source="Camarones" target="Refineria">
+        <attvalues>
+          <attvalue for="distance" value="952.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="953" source="SanJoaquin" target="Polanco">
+        <viz:color r="255" g="0" b="0"></viz:color>
+        <attvalues>
+          <attvalue for="distance" value="1163.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="955" source="Polanco" target="Auditorio">
+        <viz:color r="255" g="0" b="0"></viz:color>
+        <attvalues>
+          <attvalue for="distance" value="812.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="957" source="Auditorio" target="Constituyentes">
+        <attvalues>
+          <attvalue for="distance" value="1430.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="961" source="SanPedrodelosPinos" target="SanAntonio">
+        <attvalues>
+          <attvalue for="distance" value="606.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="963" source="SanAntonio" target="Mixcoac">
+        <attvalues>
+          <attvalue for="distance" value="788.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="965" source="Mixcoac" target="InsurgentesSur">
+        <attvalues>
+          <attvalue for="distance" value="651.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="966" source="Mixcoac" target="BarrancadelMuerto">
+        <attvalues>
+          <attvalue for="distance" value="1476.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="969" source="Garibaldi" target="Lagunilla">
+        <attvalues>
+          <attvalue for="distance" value="474.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="973" source="Doctores" target="Obrera">
+        <attvalues>
+          <attvalue for="distance" value="761.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="979" source="Coyuya" target="Iztacalco">
+        <attvalues>
+          <attvalue for="distance" value="993.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="981" source="Iztacalco" target="Apatlaco">
+        <attvalues>
+          <attvalue for="distance" value="910.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="983" source="Apatlaco" target="Aculco">
+        <attvalues>
+          <attvalue for="distance" value="534.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="985" source="Aculco" target="Escuadron201">
+        <attvalues>
+          <attvalue for="distance" value="789.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="987" source="Escuadron201" target="Atlalilco">
+        <attvalues>
+          <attvalue for="distance" value="1738.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="989" source="Atlalilco" target="Iztapalapa">
+        <attvalues>
+          <attvalue for="distance" value="732.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="990" source="Atlalilco" target="Culhuacan">
+        <attvalues>
+          <attvalue for="distance" value="1671.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="991" source="Atlalilco" target="Mexicaltzingo">
+        <attvalues>
+          <attvalue for="distance" value="1922.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="993" source="Iztapalapa" target="CerrodelaEstrella">
+        <attvalues>
+          <attvalue for="distance" value="717.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="995" source="CerrodelaEstrella" target="UAMI">
+        <attvalues>
+          <attvalue for="distance" value="1135.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="997" source="UAMI" target="Constde1917">
+        <attvalues>
+          <attvalue for="distance" value="1137.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="999" source="Puebla" target="CiudadDeportiva">
+        <attvalues>
+          <attvalue for="distance" value="800.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1001" source="CiudadDeportiva" target="Velodromo">
+        <attvalues>
+          <attvalue for="distance" value="1110.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1003" source="Velodromo" target="Mixiuhca">
+        <attvalues>
+          <attvalue for="distance" value="821.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1009" source="Chilpancingo" target="Patriotismo">
+        <attvalues>
+          <attvalue for="distance" value="955.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1013" source="AgricolaOriental" target="CanaldeSanJuan">
+        <attvalues>
+          <attvalue for="distance" value="1093.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1015" source="CanaldeSanJuan" target="Tepalcates">
+        <attvalues>
+          <attvalue for="distance" value="1456.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1017" source="Tepalcates" target="Guelatao">
+        <attvalues>
+          <attvalue for="distance" value="1161.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1019" source="Guelatao" target="PenonViejo">
+        <attvalues>
+          <attvalue for="distance" value="2206.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1021" source="PenonViejo" target="Acatitla">
+        <attvalues>
+          <attvalue for="distance" value="1379.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1023" source="Acatitla" target="SantaMarta">
+        <attvalues>
+          <attvalue for="distance" value="1100.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1025" source="SantaMarta" target="LosReyes">
+        <attvalues>
+          <attvalue for="distance" value="1783.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1027" source="LosReyes" target="LaPaz">
+        <attvalues>
+          <attvalue for="distance" value="1956.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1028" source="CiudadAzteca" target="PlazaAragon">
+        <attvalues>
+          <attvalue for="distance" value="574.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1030" source="PlazaAragon" target="Olimpica">
+        <attvalues>
+          <attvalue for="distance" value="709.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1032" source="Olimpica" target="Ecatepec">
+        <attvalues>
+          <attvalue for="distance" value="596.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1034" source="Ecatepec" target="Muzquiz">
+        <attvalues>
+          <attvalue for="distance" value="1485.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1036" source="Muzquiz" target="RiodelosRemedios">
+        <attvalues>
+          <attvalue for="distance" value="1155.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1038" source="RiodelosRemedios" target="Impulsora">
+        <attvalues>
+          <attvalue for="distance" value="436.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1040" source="Impulsora" target="Nezahualcoyotl">
+        <attvalues>
+          <attvalue for="distance" value="1393.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1042" source="Nezahualcoyotl" target="VilladeAragon">
+        <attvalues>
+          <attvalue for="distance" value="1335.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1044" source="VilladeAragon" target="BosquedeAragon">
+        <attvalues>
+          <attvalue for="distance" value="784.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1046" source="BosquedeAragon" target="DeportivoOceania">
+        <attvalues>
+          <attvalue for="distance" value="1165.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1050" source="RomeroRubio" target="RcardoFloresMagon">
+        <attvalues>
+          <attvalue for="distance" value="908.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1054" source="Tepito" target="Lagunilla">
+        <attvalues>
+          <attvalue for="distance" value="611.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1057" source="Tlahuac" target="Tlaltenco">
+        <attvalues>
+          <attvalue for="distance" value="1298.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1059" source="Tlaltenco" target="Zapotitlan">
+        <attvalues>
+          <attvalue for="distance" value="1115.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1061" source="Zapotitlan" target="Nopalera">
+        <attvalues>
+          <attvalue for="distance" value="1276.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1063" source="Nopalera" target="Olivos">
+        <attvalues>
+          <attvalue for="distance" value="1360.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1065" source="Olivos" target="Tezonco">
+        <attvalues>
+          <attvalue for="distance" value="490.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1067" source="Tezonco" target="PerifericoOriente">
+        <attvalues>
+          <attvalue for="distance" value="1545.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1069" source="PerifericoOriente" target="Calle11">
+        <attvalues>
+          <attvalue for="distance" value="1111.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1071" source="Calle11" target="LomasEstrella">
+        <attvalues>
+          <attvalue for="distance" value="906.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1073" source="LomasEstrella" target="SanAndresTomatlan">
+        <attvalues>
+          <attvalue for="distance" value="1060.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1075" source="SanAndresTomatlan" target="Culhuacan">
+        <attvalues>
+          <attvalue for="distance" value="990.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1081" source="EjeCentral" target="ParquedelosVenados">
+        <attvalues>
+          <attvalue for="distance" value="1280.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1085" source="Hospital20deNoviembre" target="InsurgentesSur">
+        <attvalues>
+          <attvalue for="distance" value="725.0"></attvalue>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

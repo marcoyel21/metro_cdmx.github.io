@@ -1,112 +1,117 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" itemscope itemtype="http://schema.org/Map">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head> 
+  <title>- Loxa Web Site Exporter (SNA) -</title> 
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"> 
+  <meta http-equiv="Pragma" content="no-cache"> 
+  <meta http-equiv="Expires" content="0"> 
+  <meta name="description" content="Social network analysis. Generate by Loxa Web Site Export Plugin for Gephi"> 
+  <meta name="keywords" content="tawsbc, gephi, lwse, sna, visualization, loxa, utpl, upm, plugin, export, j4loxa"> 
+  <meta name="author" content="jorgaf"> 
+  <meta name="author" content="nopiedra"> 
+  <meta name="author" content="etovar"> 
+  <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script> 
+  <script type="text/javascript" src="js/jquery-ui-1.10.3.custom.min.js"></script> 
+  <script type="text/javascript" src="js/jquery.cookie.js"></script> 
+  <script type="text/javascript" src="js/loxawebsite-0.9.1.js"></script> 
+  <script type="text/javascript" src="js/bootstrap.min.js"></script> 
+  <script type="text/javascript" src="js/sigma.min.js"></script> 
+  <script type="text/javascript" src="js/sigma.parseGexf.js"></script> 
+  <link type="text/css" rel="stylesheet" href="styles/bootstrap.css"> 
+  <link type="text/css" rel="stylesheet" href="styles/jquery-ui-1.10.3.custom.min.css"> 
+  <style type="text/css">
+    label {
+      display: inline-block;
+      width: 5em;
+    }
+  /* sigma.js context : */
+  .sigma-parent {
+    position: relative;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background: #222;    
+    height: 530px; 
+  }
+  .sigma-expand {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  .buttons-container{
+    padding-bottom: 8px;
+    padding-top: 12px;
+  }
+  #valTheme{
+    display: none;
+  }
 
-<head>
-<title>OII Network Visualisation Example</title>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,user-scalable=no" />
-<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-
-
-<!--[if IE]><script type="text/javascript" src="js/excanvas.js"></script><![endif]--> <!-- js/default.js -->
-  <script src="js/jquery/jquery.min.js" type="text/javascript"></script>
-  <script src="js/sigma/sigma.min.js" type="text/javascript" language="javascript"></script>
-    <script src="js/sigma/sigma.parseJson.js" type="text/javascript" language="javascript"></script>
-  <script src="js/fancybox/jquery.fancybox.pack.js" type="text/javascript" language="javascript"></script>
-  <script src="js/main.js" type="text/javascript" language="javascript"></script>
-
-  <link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox.css"/>
-  <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
-  <link rel="stylesheet" media="screen and (max-height: 770px)" href="css/tablet.css" />
-</head>
-
-
-<body>
-  <div class="sigma-parent">
-    <div class="sigma-expand" id="sigma-canvas"></div>
-  </div>
-<div id="mainpanel">
-  <div class="col">
-		<div id="maintitle"></div>
-    <div id="title"></div>
-    <div id="titletext"></div>
-    <div class="info cf">
-      <dl>
-        <dt class="moreinformation"></dt>
-        <dd class="line"><a href="#information" class="line fb">More about this visualisation</a></dd>
-      </dl>
-    </div>
-<div id="legend">
-	<div class="box">
-		<h2>Legend:</h2>
-		<dl>
-		<dt class="node"></dt>
-		<dd></dd>
-		<dt class="edge"></dt>
-		<dd></dd>
-		<dt class="colours"></dt>
-		<dd></dd>		
-		</dl>
-	</div>
-</div> 
-    <div class="b1">
-    <form>
-      <div id="search" class="cf"><h2>Search:</h2>
-        <input type="text" name="search" value="Search by name" class="empty"/><div class="state"></div>
-        <div class="results"></div>
-      </div>
-      <div class="cf" id="attributeselect"><h2>Group Selector:</h2>
-        <div class="select">Select Group</div>
-	<div class="list cf"></div>
-      </div>
-    </form>
-    </div>
-  </div>
-  <div id="information">
-  </div>
-</div>
-	<div id="zoom">
-  		<div class="z" rel="in"></div> <div class="z" rel="out"></div> <div class="z" rel="center"></div>
-	</div>
-	<div id="copyright">
-		<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="images/CC.png" /></a></div>
-	</div>
-<div id="attributepane">
-<div class="text">
-	<div title="Close" class="left-close returntext"><div class="c cf"><span>Return to the full network</span></div></div>	
-<div class="headertext">
-	<span>Information Pane</span>
-</div>	
-  <div class="nodeattributes">
-    <div class="name"></div>
-	<div class="data"></div>
-    <div class="p">Connections:</div>
-    <div class="link">
-      <ul>
-      </ul>
-    </div>
-  </div>
-	</div>
-</div>
-<div id="developercontainer">
-	<a href="http://www.oii.ox.ac.uk" title="Oxford Internet Institute"><div id="oii"><span>OII</span></div></a>
-	<a href="http://jisc.ac.uk" title="JISC"><div id="jisc"><span>JISC</span></div></a>	
-</div>
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-21293169-4']);
-  _gaq.push(['_setDomainName', 'none']);
-  _gaq.push(['_setAllowLinker', true]);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-</body>
+  </style> 
+ </head> 
+ <body onload="start('metro_cdmx');"> 
+  <div class="container-fluid"> 
+   <div class="navbar"> 
+    <div class="navbar-inner"> 
+     <ul class="nav"> 
+      <li class="active"><a href="index.html">SNA</a></li> 
+      <li><a href="info.html">About analysis</a></li> 
+      <li><a href="about.html">About us</a></li> 
+     </ul> 
+    </div> 
+   </div> 
+   <div class="row-fluid"> 
+    <div class="span9"> 
+     <form> 
+      <span class="label label-info">Graph:</span> 
+      <select id="grafos"> <option value="0">[Select]</option> <optgroup label="Project2"><option value="metro_cdmx" selected="true">metro_cdmx</option></optgroup></select> 
+      <span id="tituloGrafico" class="label">Image Title</span>&nbsp;| 
+      <span class="label label-info">Nodes:</span>
+      <small>&nbsp;<span id="nodesValue"></span></small> 
+      <span class="label label-info">Edges:</span>
+      <small>&nbsp;<span id="edgesValue"></span></small> 
+      <span class="label label-info">Type:</span>
+      <small>&nbsp;<span id="typeValue"></span>&nbsp;</small>| 
+      <a href="#" id="descargar" target="_blank"> <img src="img/download.png" width="20" height="20" title="Download image" alt="Download"> </a> 
+      <a href="#" id="downloadCSV" target="_blank"> <img src="img/opendata.png" width="70" height="20" title="Download graph file (CSV)" alt="Download (CSV)"> </a> | 
+      <input type="text" size="5" id="txtSearch" placeholder="Search node" class="input-small" autocomplete="off"> 
+      <i class="icon-search"></i> 
+      <img id="imgLoading" src="img/loading.gif" width="24px" height="24px"> 
+      <div id="valTheme">
+       <input id="theme" type="text" value="hide">
+      </div> 
+     </form> 
+     <div class="sigma-parent" id="sigma-example-parent"> 
+      <div class="sigma-expand" id="sigma-example"></div> 
+     </div> 
+     <div id="descripcion" style="width:100%; text-align:justify; text-justify:inter-word;"> 
+      <span class="label label-info">FINDINGS:</span> 
+      <small><span id="hallazgos">Tip</span></small> 
+     </div> 
+    </div> 
+    <div class="span3" style="overflow:auto;"> 
+     <!--Estadisticas --> 
+     <h4><span id="tituloData"></span>&nbsp;general information</h4> 
+     <span class="label label-info">Description</span>
+     <br> 
+     <small> 
+      <div id="descriptionValue" style="height:100%; text-align:justify; text-justify:inter-word;"> 
+       <p class="label label-important">Loading ...</p> 
+      </div> </small> 
+     <br> 
+     <span class="label label-info">Metrics</span>
+     <br> 
+     <div> 
+      <small> <span id="metricsTable"></span> </small> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div style="position:fixed; left:45%; bottom:4px;"> 
+   <a href="http://loxa.ec" target="_blank" title="loxa.ec"><img src="img/logo_final.png" width="75px" height="28px"></a> 
+   <a href="http://www.utpl.edu.ec" target="_blank" title="UTPL"><img src="img/utpl.jpg" width="19px" height="28px"></a> 
+   <a href="http://www.upm.es" target="_blank" title="UPM"><img src="img/upm.png" width="25px" height="28px"></a> 
+  </div>  
+ </body>
 </html>
